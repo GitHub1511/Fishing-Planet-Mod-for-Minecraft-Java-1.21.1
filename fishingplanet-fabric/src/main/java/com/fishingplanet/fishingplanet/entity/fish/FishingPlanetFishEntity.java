@@ -15,6 +15,8 @@ import net.minecraft.entity.data.TrackedDataHandlerRegistry;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.passive.FishEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.world.LocalDifficulty;
@@ -117,6 +119,12 @@ public class FishingPlanetFishEntity extends FishEntity {
 
     public SoundEvent getFlopSound() {
         return ModSounds.FISH_FLOP;
+    }
+
+    @Override
+    public ItemStack getBucketItem() {
+        // TODO (M5): custom bucket item holding the caught species/weight
+        return new ItemStack(Items.WATER_BUCKET);
     }
 
     @Override
