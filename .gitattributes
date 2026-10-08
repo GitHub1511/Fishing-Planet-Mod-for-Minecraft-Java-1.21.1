@@ -1,0 +1,5 @@
+# Force Unix line endings for shell scripts (prevents "bad interpreter" on Linux CI)
+gradlew text eol=lf
+*.sh text eol=lf
+# Windows batch files keep CRLF
+*.bat text eol=crlf
