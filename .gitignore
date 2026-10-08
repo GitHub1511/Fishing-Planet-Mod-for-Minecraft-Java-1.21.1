@@ -35,3 +35,6 @@ fp_extract/bundles/
 # Python
 __pycache__/
 *.pyc
+
+# Local mod backups (large jars, never commit)
+backups/

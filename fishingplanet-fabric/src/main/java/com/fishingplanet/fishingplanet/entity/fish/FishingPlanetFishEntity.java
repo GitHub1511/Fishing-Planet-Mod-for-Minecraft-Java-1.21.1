@@ -1,6 +1,7 @@
 package com.fishingplanet.fishingplanet.entity.fish;
 
 import com.fishingplanet.fishingplanet.registry.ModSounds;
+import com.fishingplanet.fishingplanet.spawn.FishSpawner;
 import net.minecraft.entity.EntityData;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnReason;
@@ -100,6 +101,23 @@ public class FishingPlanetFishEntity extends FishEntity {
 
     public boolean isFromFishing() {
         return this.dataTracker.get(FROM_FISHING);
+    }
+
+    @Override
+    public void tick() {
+        super.tick();
+        if (!this.getWorld().isClient() && !this.isFromFishing()) {
+            int maxAge = com.fishingplanet.fishingplanet.config.ModConfig.get().spawn.despawnTimeMinutes * 1200;
+            if (maxAge > 0 && this.age > maxAge) {
+                this.discard();
+            }
+        }
+    }
+
+    @Override
+    public void remove(RemovalReason reason) {
+        FishSpawner.onFishRemoved();
+        super.remove(reason);
     }
 
     @Override

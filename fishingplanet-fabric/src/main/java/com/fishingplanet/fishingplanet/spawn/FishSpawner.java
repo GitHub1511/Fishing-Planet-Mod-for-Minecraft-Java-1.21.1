@@ -8,46 +8,50 @@ import com.fishingplanet.fishingplanet.registry.ModEntities;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerChunkEvents;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
+import net.minecraft.entity.Entity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Box;
 import net.minecraft.util.math.ChunkPos;
 import net.minecraft.world.chunk.Chunk;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class FishSpawner {
-    private static final Map<ChunkPos, Integer> chunkFishCount = new ConcurrentHashMap<>();
+    private static final AtomicInteger ACTIVE_FISH = new AtomicInteger(0);
     private static boolean enabled = true;
 
     public static void register() {
         ServerChunkEvents.CHUNK_LOAD.register(FishSpawner::onChunkLoad);
-        ServerChunkEvents.CHUNK_UNLOAD.register((world, chunk) -> onChunkUnload(chunk.getPos()));
     }
 
     public static void onChunkLoad(ServerWorld world, Chunk chunk) {
         if (!enabled || !ModConfig.get().spawn.enableNaturalSpawning) {
             return;
         }
-        ChunkPos chunkPos = chunk.getPos();
-        int current = chunkFishCount.getOrDefault(chunkPos, 0);
-        int max = (int) (ModConfig.get().spawn.maxFishPerChunk * ModConfig.get().spawn.spawnRateMultiplier);
-        if (current < max) {
-            spawnFishInChunk(world, chunkPos, max - current);
-        }
-    }
-
-    public static void onChunkUnload(ChunkPos chunkPos) {
-        chunkFishCount.remove(chunkPos);
-    }
-
-    public static void spawnFishInChunk(ServerWorld world, ChunkPos chunkPos, int count) {
-        if (!enabled || count <= 0) {
+        if (ACTIVE_FISH.get() >= ModConfig.get().spawn.maxFishTotal) {
             return;
         }
-        for (int i = 0; i < count; i++) {
+        ChunkPos chunkPos = chunk.getPos();
+        int max = (int) (ModConfig.get().spawn.maxFishPerChunk * ModConfig.get().spawn.spawnRateMultiplier);
+        if (countFishInChunk(world, chunkPos) < max) {
+            spawnFishInChunk(world, chunkPos, max);
+        }
+    }
+
+    public static void spawnFishInChunk(ServerWorld world, ChunkPos chunkPos, int max) {
+        if (!enabled || max <= 0) {
+            return;
+        }
+        for (int i = 0; i < max; i++) {
+            if (ACTIVE_FISH.get() >= ModConfig.get().spawn.maxFishTotal) {
+                return;
+            }
+            if (countFishInChunk(world, chunkPos) >= max) {
+                return;
+            }
             BlockPos water = findWaterPosition(world, chunkPos);
             if (water == null) {
                 return;
@@ -62,17 +66,25 @@ public class FishSpawner {
             fish.refreshPositionAndAngles(
                 water.getX() + 0.5, water.getY() + 1.0, water.getZ() + 0.5,
                 world.random.nextFloat() * 360.0F, 0.0F);
-            if (canSpawnHere(world, water, depth)) {
-                world.spawnEntity(fish);
-                chunkFishCount.merge(chunkPos, 1, Integer::sum);
-            }
+            world.spawnEntity(fish);
+            ACTIVE_FISH.incrementAndGet();
         }
+    }
+
+    public static int countFishInChunk(ServerWorld world, ChunkPos chunkPos) {
+        Box box = new Box(chunkPos.getStartX(), -64.0, chunkPos.getStartZ(),
+            chunkPos.getStartX() + 16.0, 320.0, chunkPos.getStartZ() + 16.0);
+        return world.getEntitiesByClass(FishingPlanetFishEntity.class, box, Entity::isAlive).size();
+    }
+
+    public static void onFishRemoved() {
+        ACTIVE_FISH.updateAndGet(value -> value <= 0 ? 0 : value - 1);
     }
 
     private static BlockPos findWaterPosition(ServerWorld world, ChunkPos chunkPos) {
         int startX = chunkPos.getStartX();
         int startZ = chunkPos.getStartZ();
-        for (int attempt = 0; attempt < 50; attempt++) {
+        for (int attempt = 0; attempt < 12; attempt++) {
             int x = startX + world.random.nextInt(16);
             int z = startZ + world.random.nextInt(16);
             int y = world.getTopY() - 1;
@@ -85,7 +97,7 @@ public class FishSpawner {
                     }
                     break;
                 }
-                if (!state.isAir() && !state.isOf(Blocks.WATER)) {
+                if (!state.isAir()) {
                     break;
                 }
                 y--;
@@ -138,26 +150,15 @@ public class FishSpawner {
         return candidates.get(0);
     }
 
-    private static boolean canSpawnHere(ServerWorld world, BlockPos pos, float depth) {
-        ChunkPos chunkPos = new ChunkPos(pos);
-        int current = chunkFishCount.getOrDefault(chunkPos, 0);
-        return current < ModConfig.get().spawn.maxFishPerChunk;
-    }
-
     public static void cleanup() {
-        chunkFishCount.clear();
+        ACTIVE_FISH.set(0);
     }
 
     public static void setEnabled(boolean value) {
         enabled = value;
     }
 
-    public static int getChunkFishCount(ChunkPos chunkPos) {
-        return chunkFishCount.getOrDefault(chunkPos, 0);
-    }
-
-    public static void onFishDeath(ServerWorld world, FishingPlanetFishEntity fish) {
-        ChunkPos chunkPos = new ChunkPos(fish.getBlockPos());
-        chunkFishCount.compute(chunkPos, (key, value) -> value == null || value <= 1 ? null : value - 1);
+    public static int getActiveFishCount() {
+        return ACTIVE_FISH.get();
     }
 }

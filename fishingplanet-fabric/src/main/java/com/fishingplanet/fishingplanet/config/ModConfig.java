@@ -20,8 +20,11 @@ public class ModConfig implements ConfigData {
     public static class SpawnConfig {
         public float spawnRateMultiplier = 1.0f;
 
-        @ConfigEntry.BoundedDiscrete(min = 1, max = 200)
-        public int maxFishPerChunk = 50;
+        @ConfigEntry.BoundedDiscrete(min = 1, max = 32)
+        public int maxFishPerChunk = 12;
+
+        @ConfigEntry.BoundedDiscrete(min = 50, max = 2000)
+        public int maxFishTotal = 400;
 
         @ConfigEntry.BoundedDiscrete(min = 0, max = 50)
         public int minFishPerChunk = 5;
