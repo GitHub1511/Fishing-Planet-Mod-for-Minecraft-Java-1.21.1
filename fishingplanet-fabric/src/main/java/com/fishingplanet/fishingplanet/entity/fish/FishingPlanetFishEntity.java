@@ -1,27 +1,26 @@
 package com.fishingplanet.fishingplanet.entity.fish;
 
-import com.fishingplanet.fishingplanet.entity.fish.FishSpecies;
 import com.fishingplanet.fishingplanet.registry.ModSounds;
-import net.minecraft.entity.*;
-import net.minecraft.entity.ai.goal.*;
+import net.minecraft.entity.EntityData;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.SpawnReason;
+import net.minecraft.entity.ai.goal.FleeEntityGoal;
+import net.minecraft.entity.ai.goal.SwimAroundGoal;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.data.DataTracker;
 import net.minecraft.entity.data.TrackedData;
 import net.minecraft.entity.data.TrackedDataHandlerRegistry;
+import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.passive.FishEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.nbt.NbtCompound;
-import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundEvent;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.MathHelper;
-import net.minecraft.util.math.Vec3d;
-import net.minecraft.util.math.random.Random;
+import net.minecraft.world.LocalDifficulty;
+import net.minecraft.world.ServerWorldAccess;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
-
-import java.util.UUID;
 
 public class FishingPlanetFishEntity extends FishEntity {
     private static final TrackedData<Integer> SPECIES_ID = DataTracker.registerData(FishingPlanetFishEntity.class, TrackedDataHandlerRegistry.INTEGER);
@@ -31,8 +30,6 @@ public class FishingPlanetFishEntity extends FishEntity {
     private static final TrackedData<Boolean> FROM_FISHING = DataTracker.registerData(FishingPlanetFishEntity.class, TrackedDataHandlerRegistry.BOOLEAN);
 
     private FishSpecies species;
-    private int schoolCooldown = 0;
-    private UUID schoolLeaderId = null;
 
     public FishingPlanetFishEntity(EntityType<? extends FishEntity> type, World world) {
         super(type, world);
@@ -40,7 +37,7 @@ public class FishingPlanetFishEntity extends FishEntity {
     }
 
     public static DefaultAttributeContainer.Builder createFishAttributes() {
-        return FishEntity.createFishAttributes()
+        return MobEntity.createMobAttributes()
             .add(EntityAttributes.GENERIC_MAX_HEALTH, 10.0)
             .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.5)
             .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 2.0);
@@ -48,36 +45,29 @@ public class FishingPlanetFishEntity extends FishEntity {
 
     @Override
     protected void initGoals() {
-        this.goalSelector.add(0, new SwimGoal(this));
-        this.goalSelector.add(1, new FleeEntityGoal<>(this, LivingEntity.class, 8.0f, 1.5, 1.5));
-        this.goalSelector.add(2, new LookAroundGoal(this));
-        this.goalSelector.add(3, new SwimAroundGoal(this, 1.0, 10));
-        this.goalSelector.add(4, new SchoolingGoal(this));
+        this.goalSelector.add(0, new SwimAroundGoal(this, 1.0, 10));
+        this.goalSelector.add(2, new FleeEntityGoal<>(this, PlayerEntity.class, 8.0F, 1.6, 1.4));
     }
 
     @Override
-    protected void initDataTracker() {
-        super.initDataTracker();
-        this.dataTracker.startTracking(SPECIES_ID, 0);
-        this.dataTracker.startTracking(FISH_LENGTH, 1.0f);
-        this.dataTracker.startTracking(FISH_WEIGHT, 1.0f);
-        this.dataTracker.startTracking(FISH_FORM, 1); // Common form
-        this.dataTracker.startTracking(FROM_FISHING, false);
+    protected void initDataTracker(DataTracker.Builder builder) {
+        super.initDataTracker(builder);
+        builder.add(SPECIES_ID, 0);
+        builder.add(FISH_LENGTH, 1.0F);
+        builder.add(FISH_WEIGHT, 1.0F);
+        builder.add(FISH_FORM, 1);
+        builder.add(FROM_FISHING, false);
     }
 
     public void setSpecies(FishSpecies species) {
         this.species = species;
         this.dataTracker.set(SPECIES_ID, species != null ? species.id() : 0);
         if (species != null) {
-            // Set length and weight based on species stats with some variation
-            Random random = this.getRandom();
-            float length = (float) (species.minLengthCm() + random.nextDouble() * (species.maxLengthCm() - species.minLengthCm()));
-            float weight = (float) (species.minWeightKg() + random.nextDouble() * (species.maxWeightKg() - species.minWeightKg()));
+            float length = (float) (species.minLengthCm() + this.getRandom().nextDouble() * (species.maxLengthCm() - species.minLengthCm()));
+            float weight = (float) (species.minWeightKg() + this.getRandom().nextDouble() * (species.maxWeightKg() - species.minWeightKg()));
             this.dataTracker.set(FISH_LENGTH, length);
             this.dataTracker.set(FISH_WEIGHT, weight);
-            this.dataTracker.set(FISH_FORM, random.nextInt(4)); // 0=Young, 1=Common, 2=Trophy, 3=Unique
-            
-            // Scale health based on weight
+            this.dataTracker.set(FISH_FORM, this.getRandom().nextInt(4));
             this.getAttributeInstance(EntityAttributes.GENERIC_MAX_HEALTH).setBaseValue(Math.max(1.0, weight * 2.0));
             this.setHealth(this.getMaxHealth());
         }
@@ -85,8 +75,7 @@ public class FishingPlanetFishEntity extends FishEntity {
 
     public FishSpecies getSpecies() {
         if (this.species == null) {
-            int id = this.dataTracker.get(SPECIES_ID);
-            this.species = FishSpecies.getById(id);
+            this.species = FishSpecies.getById(this.dataTracker.get(SPECIES_ID));
         }
         return this.species;
     }
@@ -112,24 +101,6 @@ public class FishingPlanetFishEntity extends FishEntity {
     }
 
     @Override
-    public void tick() {
-        super.tick();
-        
-        // Schooling behavior
-        if (this.schoolCooldown > 0) {
-            this.schoolCooldown--;
-        }
-        
-        // Update school leader reference
-        if (this.schoolLeaderId != null && this.getWorld() instanceof ServerWorld serverWorld) {
-            Entity leader = serverWorld.getEntity(this.schoolLeaderId);
-            if (leader == null || !leader.isAlive() || leader.squaredDistanceTo(this) > 100) {
-                this.schoolLeaderId = null;
-            }
-        }
-    }
-
-    @Override
     protected SoundEvent getAmbientSound() {
         return ModSounds.FISH_SWIM;
     }
@@ -141,6 +112,10 @@ public class FishingPlanetFishEntity extends FishEntity {
 
     @Override
     protected SoundEvent getDeathSound() {
+        return ModSounds.FISH_FLOP;
+    }
+
+    public SoundEvent getFlopSound() {
         return ModSounds.FISH_FLOP;
     }
 
@@ -178,21 +153,10 @@ public class FishingPlanetFishEntity extends FishEntity {
 
     @Nullable
     @Override
-    public EntityData initialize(ServerWorldAccess world, LocalDifficulty difficulty, SpawnReason spawnReason, @Nullable EntityData entityData, @Nullable NbtCompound nbt) {
-        // Random species if not from fishing
-        if (spawnReason != SpawnReason.EVENT && this.species == null) {
-            this.setSpecies(FishSpecies.getRandomSpecies(world.getRandom()));
+    public EntityData initialize(ServerWorldAccess world, LocalDifficulty difficulty, SpawnReason spawnReason, @Nullable EntityData entityData) {
+        if (this.species == null) {
+            this.setSpecies(FishSpecies.getRandomSpecies(this.getRandom()));
         }
-        return super.initialize(world, difficulty, spawnReason, entityData, nbt);
-    }
-
-    @Override
-    public boolean canBreatheInWater() {
-        return true;
-    }
-
-    @Override
-    public boolean canBreatheInAir() {
-        return false;
+        return super.initialize(world, difficulty, spawnReason, entityData);
     }
 }

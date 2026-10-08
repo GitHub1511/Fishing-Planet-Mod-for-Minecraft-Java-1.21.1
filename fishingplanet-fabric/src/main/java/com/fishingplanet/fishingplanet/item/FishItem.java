@@ -2,6 +2,7 @@ package com.fishingplanet.fishingplanet.item;
 
 import com.fishingplanet.fishingplanet.entity.fish.FishSpecies;
 import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.NbtComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
@@ -36,8 +37,8 @@ public class FishItem extends Item {
         tooltip.add(Text.literal("Length: " + species.minLengthCm + "-" + species.maxLengthCm + "cm").formatted(Formatting.GRAY));
         
         // Show actual caught fish stats if present
-        NbtCompound nbt = stack.getNbt();
-        if (nbt != null && nbt.contains("CaughtWeight")) {
+        NbtCompound nbt = stack.getOrDefault(DataComponentTypes.CUSTOM_DATA, NbtComponent.DEFAULT).copyNbt();
+        if (nbt.contains("CaughtWeight")) {
             float weight = nbt.getFloat("CaughtWeight");
             float length = nbt.getFloat("CaughtLength");
             int form = nbt.getInt("CaughtForm");
@@ -50,22 +51,24 @@ public class FishItem extends Item {
     }
 
     public int getSpeciesId(ItemStack stack) {
-        NbtCompound nbt = stack.getNbt();
-        if (nbt != null && nbt.contains("SpeciesId")) {
+        NbtCompound nbt = stack.getOrDefault(DataComponentTypes.CUSTOM_DATA, NbtComponent.DEFAULT).copyNbt();
+        if (nbt.contains("SpeciesId")) {
             return nbt.getInt("SpeciesId");
         }
         return this.speciesId;
     }
 
     public void setSpeciesId(ItemStack stack, int speciesId) {
-        NbtCompound nbt = stack.getOrCreateNbt();
+        NbtCompound nbt = stack.getOrDefault(DataComponentTypes.CUSTOM_DATA, NbtComponent.DEFAULT).copyNbt();
         nbt.putInt("SpeciesId", speciesId);
+        stack.set(DataComponentTypes.CUSTOM_DATA, NbtComponent.of(nbt));
     }
 
     public void setCaughtData(ItemStack stack, float weight, float length, int form) {
-        NbtCompound nbt = stack.getOrCreateNbt();
+        NbtCompound nbt = stack.getOrDefault(DataComponentTypes.CUSTOM_DATA, NbtComponent.DEFAULT).copyNbt();
         nbt.putFloat("CaughtWeight", weight);
         nbt.putFloat("CaughtLength", length);
         nbt.putInt("CaughtForm", form);
+        stack.set(DataComponentTypes.CUSTOM_DATA, NbtComponent.of(nbt));
     }
 }

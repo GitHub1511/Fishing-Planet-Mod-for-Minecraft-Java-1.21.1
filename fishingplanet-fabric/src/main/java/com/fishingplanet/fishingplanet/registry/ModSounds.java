@@ -1,5 +1,6 @@
 package com.fishingplanet.fishingplanet.registry;
 
+import com.fishingplanet.fishingplanet.FishingPlanetMod;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.SoundEvent;

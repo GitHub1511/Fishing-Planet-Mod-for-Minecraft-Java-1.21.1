@@ -22,7 +22,7 @@ public class ReelItem extends Item {
     private final int unlockLevel;
 
     public ReelItem(Settings settings) {
-        super(settings.component(DataComponentTypes.MAX_STACK_SIZE, 1));
+        super(settings.maxCount(1));
         this.reelType = "Spinning";
         this.tier = 1;
         this.gearRatio = 5.2f;
@@ -36,7 +36,7 @@ public class ReelItem extends Item {
 
     public ReelItem(Settings settings, String reelType, int tier, float gearRatio, int bearings,
                     int dragKg, int lineCapacity, int weightG, int price, int unlockLevel) {
-        super(settings.component(DataComponentTypes.MAX_STACK_SIZE, 1));
+        super(settings.maxCount(1));
         this.reelType = reelType;
         this.tier = tier;
         this.gearRatio = gearRatio;

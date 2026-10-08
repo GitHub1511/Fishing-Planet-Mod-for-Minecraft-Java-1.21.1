@@ -1,5 +1,6 @@
 package com.fishingplanet.fishingplanet.registry;
 
+import com.fishingplanet.fishingplanet.FishingPlanetMod;
 import com.fishingplanet.fishingplanet.item.*;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;

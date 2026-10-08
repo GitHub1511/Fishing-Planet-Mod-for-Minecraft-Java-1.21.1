@@ -1,7 +1,7 @@
 package com.fishingplanet.fishingplanet.item;
 
-import net.minecraft.component.ComponentType;
 import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.NbtComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
@@ -30,7 +30,7 @@ public class RodItem extends Item {
     private final int unlockLevel;
 
     public RodItem(Settings settings) {
-        super(settings.component(DataComponentTypes.MAX_STACK_SIZE, 1));
+        super(settings.maxCount(1));
         // Default values - will be overridden by data-driven system
         this.tackleType = 0;
         this.rodType = "Lure";
@@ -49,7 +49,7 @@ public class RodItem extends Item {
     public RodItem(Settings settings, int tackleType, String rodType, int tier, float action, float power,
                    int lengthCm, int castingWeightMin, int castingWeightMax, int lineRatingMin, int lineRatingMax,
                    int price, int unlockLevel) {
-        super(settings.component(DataComponentTypes.MAX_STACK_SIZE, 1));
+        super(settings.maxCount(1));
         this.tackleType = tackleType;
         this.rodType = rodType;
         this.tier = tier;
@@ -104,26 +104,19 @@ public class RodItem extends Item {
         tooltip.add(Text.literal("Unlock Level: " + unlockLevel).formatted(Formatting.BLUE));
         
         // Show attached tackle
-        NbtCompound nbt = stack.getNbt();
-        if (nbt != null) {
-            if (nbt.contains("Reel")) {
-                tooltip.add(Text.literal("Reel: Attached").formatted(Formatting.AQUA));
-            }
-            if (nbt.contains("Line")) {
-                tooltip.add(Text.literal("Line: Attached").formatted(Formatting.AQUA));
-            }
-            if (nbt.contains("Lure")) {
-                tooltip.add(Text.literal("Lure: Attached").formatted(Formatting.AQUA));
-            }
-            if (nbt.contains("Hook")) {
-                tooltip.add(Text.literal("Hook: Attached").formatted(Formatting.AQUA));
-            }
+        NbtCompound nbt = stack.getOrDefault(DataComponentTypes.CUSTOM_DATA, NbtComponent.DEFAULT).copyNbt();
+        if (nbt.contains("Reel")) {
+            tooltip.add(Text.literal("Reel: Attached").formatted(Formatting.AQUA));
         }
-    }
-
-    @Override
-    public boolean isEnchantable(ItemStack stack) {
-        return false; // Rods have their own upgrade system
+        if (nbt.contains("Line")) {
+            tooltip.add(Text.literal("Line: Attached").formatted(Formatting.AQUA));
+        }
+        if (nbt.contains("Lure")) {
+            tooltip.add(Text.literal("Lure: Attached").formatted(Formatting.AQUA));
+        }
+        if (nbt.contains("Hook")) {
+            tooltip.add(Text.literal("Hook: Attached").formatted(Formatting.AQUA));
+        }
     }
 
     public static RodItem fromNbt(NbtCompound nbt) {

@@ -1,5 +1,7 @@
 package com.fishingplanet.fishingplanet.registry;
 
+import com.fishingplanet.fishingplanet.FishingPlanetMod;
+
 import com.fishingplanet.fishingplanet.entity.fish.FishingPlanetFishEntity;
 import com.fishingplanet.fishingplanet.entity.bobber.FishingPlanetBobberEntity;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
@@ -35,8 +37,7 @@ public class ModEntities {
     }
 
     public static void register() {
-        // Register attributes for fish entity
+        // Register attributes for fish entity (bobbers need no attributes)
         FabricDefaultAttributeRegistry.register(FISHING_PLANET_FISH, FishingPlanetFishEntity.createFishAttributes());
-        FabricDefaultAttributeRegistry.register(FISHING_PLANET_BOBBER, FishingPlanetBobberEntity.createBobberAttributes());
     }
 }

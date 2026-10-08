@@ -148,4 +148,17 @@ public class FishSpecies {
         load();
         return ALL_SPECIES.stream().filter(s -> s.habitat.contains(habitat)).toList();
     }
+
+    public int id() { return id; }
+    public String name() { return name; }
+    public String displayName() { return displayName; }
+    public String category() { return category; }
+    public String habitat() { return habitat; }
+    public String depth() { return depth; }
+    public String rarity() { return rarity; }
+    public float minWeightKg() { return minWeightKg; }
+    public float maxWeightKg() { return maxWeightKg; }
+    public float minLengthCm() { return minLengthCm; }
+    public float maxLengthCm() { return maxLengthCm; }
+    public int spawnWeight() { return spawnWeight; }
 }
