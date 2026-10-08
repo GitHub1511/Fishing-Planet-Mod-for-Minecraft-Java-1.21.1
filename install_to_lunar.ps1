@@ -24,21 +24,29 @@ $versionMods = "C:\Users\Shivi\.lunarclient\profiles\1.21\mods\fabric-1.21.1"
 
 # Find the jar if not given explicitly
 if ([string]::IsNullOrWhiteSpace($JarPath)) {
-    $cands = @(
-        (Join-Path $env:USERPROFILE "Downloads\fishingplanet-fabric-1.0.0.jar"),
-        (Join-Path $env:USERPROFILE "Downloads\fishingplanet-fabric\fishingplanet-fabric-1.0.0.jar")
-    )
-    foreach ($c in $cands) {
-        if (Test-Path $c) { $JarPath = $c; break }
+    $dl = Join-Path $env:USERPROFILE "Downloads"
+    # 1. jar directly in Downloads
+    $found = Get-ChildItem $dl -Filter "fishingplanet*.jar" -File -ErrorAction SilentlyContinue | Select-Object -First 1
+    # 2. jar inside an extracted artifact subfolder
+    if (-not $found) {
+        $found = Get-ChildItem $dl -Filter "fishingplanet*.jar" -File -Recurse -Depth 2 -ErrorAction SilentlyContinue | Select-Object -First 1
     }
-    if ([string]::IsNullOrWhiteSpace($JarPath)) {
-        $found = Get-ChildItem (Join-Path $env:USERPROFILE "Downloads") -Filter "fishingplanet*.jar" -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1
-        if ($found) { $JarPath = $found.FullName }
+    # 3. unextracted artifact zip -> expand to temp, then find jar
+    if (-not $found) {
+        $zip = Get-ChildItem $dl -Filter "fishingplanet*.zip" -File -ErrorAction SilentlyContinue | Select-Object -First 1
+        if ($zip) {
+            Write-Host "Found artifact zip, extracting: $($zip.Name)" -ForegroundColor Yellow
+            $tmp = Join-Path ([System.IO.Path]::GetTempPath()) "fp-mod-install"
+            if (Test-Path $tmp) { Remove-Item $tmp -Recurse -Force }
+            Expand-Archive $zip.FullName $tmp -Force
+            $found = Get-ChildItem $tmp -Filter "fishingplanet*.jar" -File -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1
+        }
     }
+    if ($found) { $JarPath = $found.FullName }
 }
 
-if (-not (Test-Path $JarPath)) {
-    Write-Error "Mod jar not found. Download it from GitHub Actions artifacts into your Downloads folder, or pass -JarPath explicitly.`nExample: .\install_to_lunar.ps1 -JarPath 'C:\Users\Shivi\Downloads\fishingplanet-fabric-1.0.0.jar'"
+if ([string]::IsNullOrWhiteSpace($JarPath) -or -not (Test-Path $JarPath)) {
+    Write-Error "Mod jar not found. Did the GitHub Actions 'Build Mod' run finish green? Download the 'fishingplanet-fabric' artifact into your Downloads folder (zip is fine, it will be extracted automatically), then re-run this script.`nExample: .\install_to_lunar.ps1 -JarPath 'C:\Users\Shivi\Downloads\fishingplanet-fabric-1.0.0.jar'"
     exit 1
 }
 
