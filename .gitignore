@@ -1,0 +1,38 @@
+﻿# Gradle
+.gradle/
+build/
+gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local caches
+gradle_cache/
+mc_cache/
+mc_repo/
+
+# Cpp2IL dumped files (too many)
+fp_extract/dumped*
+fp_extract/dumped_cs/
+fp_extract/managed/
+fp_extract/sounds/
+fp_extract/bundles/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.pyc

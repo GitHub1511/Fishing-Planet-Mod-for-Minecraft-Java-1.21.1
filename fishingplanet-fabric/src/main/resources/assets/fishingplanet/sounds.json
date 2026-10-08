@@ -1,0 +1,16 @@
+{
+  "fish_bite": {"category": "neutral", "sounds": ["fishingplanet:fish_bite"]},
+  "fish_hooked": {"category": "neutral", "sounds": ["fishingplanet:fish_hooked"]},
+  "fish_escape": {"category": "neutral", "sounds": ["fishingplanet:fish_escape"]},
+  "reel_cast": {"category": "neutral", "sounds": ["fishingplanet:reel_cast"]},
+  "reel_retrieve": {"category": "neutral", "sounds": ["fishingplanet:reel_retrieve"]},
+  "drag": {"category": "neutral", "sounds": ["fishingplanet:drag"]},
+  "line_snap": {"category": "neutral", "sounds": ["fishingplanet:line_snap"]},
+  "rod_bend": {"category": "neutral", "sounds": ["fishingplanet:rod_bend"]},
+  "splash_small": {"category": "neutral", "sounds": ["fishingplanet:splash_small"]},
+  "splash_medium": {"category": "neutral", "sounds": ["fishingplanet:splash_medium"]},
+  "splash_large": {"category": "neutral", "sounds": ["fishingplanet:splash_large"]},
+  "fish_swim": {"category": "ambient", "sounds": ["fishingplanet:fish_swim"]},
+  "fish_jump": {"category": "neutral", "sounds": ["fishingplanet:fish_jump"]},
+  "fish_flop": {"category": "neutral", "sounds": ["fishingplanet:fish_flop"]}
+}

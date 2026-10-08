@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "fishingplanet",
+  "version": "1.0.0",
+  "name": "Fishing Planet",
+  "description": "Brings Fishing Planet's fish, rods, reels, lures, and tackle to Minecraft. All water bodies spawn Fishing Planet fish species.",
+  "authors": ["Shivi"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fishingplanet/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.fishingplanet.fishingplanet.FishingPlanetMod"],
+    "client": ["com.fishingplanet.fishingplanet.FishingPlanetClientMod"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": ">=1.21.1",
+    "fabric-api": "*",
+    "cloth-config": "*",
+    "architectury": "*"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "emi": "*",
+    "jei": "*",
+    "iris": "*",
+    "sodium": "*"
+  }
+}

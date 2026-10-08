@@ -1,0 +1,43 @@
+plugins {
+    id 'fabric-loom' version '1.9.2'
+    id 'java'
+}
+
+group = 'com.fishingplanet'
+version = '1.0.0'
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    mavenCentral()
+    maven { url 'https://maven.fabricmc.net/' }
+    maven { url 'https://maven.creeperhost.net/' }
+    maven { url 'https://jitpack.io/' }
+    maven { url 'file:///C:/Users/Shivi/Downloads/person/mc_repo' }
+}
+
+dependencies {
+    minecraft 'com.mojang:minecraft:1.21.1'
+    mappings 'net.fabricmc:yarn:1.21.1+build.3:v2'
+    modImplementation 'net.fabricmc:fabric-loader:0.19.5'
+    modImplementation 'net.fabricmc.fabric-api:fabric-api:0.116.17+1.21.1'
+    modImplementation 'me.shedaniel:cloth-config:15.0.140-fabric'
+    modImplementation 'dev.architectury:platform-api:13.0.11-fabric'
+    modApi 'com.google.code.gson:gson:2.10.1'
+    include 'com.google.code.gson:gson:2.10.1'
+}
+
+java {
+    withSourcesJar()
+    withJavadocJar()
+}
+
+jar {
+    manifest {
+        attributes(
+            'Fabric-Mod': 'fishingplanet.fabric.FishingPlanetMod',
+            'Mod-Title': 'Fishing Planet',
+            'Mod-Version': version,
+            'Mod-Authors': 'Shivi'
+        )
+    }
+}

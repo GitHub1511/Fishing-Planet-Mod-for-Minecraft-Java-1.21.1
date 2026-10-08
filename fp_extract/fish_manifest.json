@@ -1,0 +1,1724 @@
+{
+  "version": "1.0",
+  "source": "Fishing Planet (Unity 6000.3.10, IL2CPP)",
+  "extraction_date": "2026-10-07",
+  "total_species": 286,
+  "species": [
+    {
+      "id": 61,
+      "name": "Pumpkinseed",
+      "display_name": "Pumpkinseed",
+      "category": "Unknown"
+    },
+    {
+      "id": 62,
+      "name": "Bluegill",
+      "display_name": "Bluegill",
+      "category": "Unknown"
+    },
+    {
+      "id": 63,
+      "name": "Warmouth",
+      "display_name": "Warmouth",
+      "category": "Unknown"
+    },
+    {
+      "id": 64,
+      "name": "RedearSunfish",
+      "display_name": "RedearSunfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 65,
+      "name": "RedbreastSunfish",
+      "display_name": "RedbreastSunfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 66,
+      "name": "GreenSunfish",
+      "display_name": "GreenSunfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 67,
+      "name": "SpottedSunfish",
+      "display_name": "SpottedSunfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 68,
+      "name": "BluespottedSunfish",
+      "display_name": "BluespottedSunfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 69,
+      "name": "Oscar",
+      "display_name": "Oscar",
+      "category": "Unknown"
+    },
+    {
+      "id": 70,
+      "name": "LeprechaunFish",
+      "display_name": "LeprechaunFish",
+      "category": "Unknown"
+    },
+    {
+      "id": 71,
+      "name": "WhiteCrappie",
+      "display_name": "WhiteCrappie",
+      "category": "Unknown"
+    },
+    {
+      "id": 72,
+      "name": "BlackCrappie",
+      "display_name": "BlackCrappie",
+      "category": "Unknown"
+    },
+    {
+      "id": 73,
+      "name": "GoldenShiner",
+      "display_name": "GoldenShiner",
+      "category": "Unknown"
+    },
+    {
+      "id": 74,
+      "name": "BluntnoseMinnow",
+      "display_name": "BluntnoseMinnow",
+      "category": "Unknown"
+    },
+    {
+      "id": 75,
+      "name": "CommonShiner",
+      "display_name": "CommonShiner",
+      "category": "Unknown"
+    },
+    {
+      "id": 76,
+      "name": "BlacktailShiner",
+      "display_name": "BlacktailShiner",
+      "category": "Unknown"
+    },
+    {
+      "id": 77,
+      "name": "CaliforniaRoach",
+      "display_name": "CaliforniaRoach",
+      "category": "Unknown"
+    },
+    {
+      "id": 78,
+      "name": "LakeChub",
+      "display_name": "LakeChub",
+      "category": "Unknown"
+    },
+    {
+      "id": 79,
+      "name": "FreshwaterDrum",
+      "display_name": "FreshwaterDrum",
+      "category": "Unknown"
+    },
+    {
+      "id": 81,
+      "name": "YellowPerch",
+      "display_name": "YellowPerch",
+      "category": "Unknown"
+    },
+    {
+      "id": 83,
+      "name": "Walleye",
+      "display_name": "Walleye",
+      "category": "Unknown"
+    },
+    {
+      "id": 84,
+      "name": "ShinerPerch",
+      "display_name": "ShinerPerch",
+      "category": "Unknown"
+    },
+    {
+      "id": 85,
+      "name": "EuropeanPerch",
+      "display_name": "EuropeanPerch",
+      "category": "Unknown"
+    },
+    {
+      "id": 86,
+      "name": "Sauger",
+      "display_name": "Sauger",
+      "category": "Unknown"
+    },
+    {
+      "id": 87,
+      "name": "Zander",
+      "display_name": "Zander",
+      "category": "Unknown"
+    },
+    {
+      "id": 88,
+      "name": "VolgaZander",
+      "display_name": "VolgaZander",
+      "category": "Unknown"
+    },
+    {
+      "id": 89,
+      "name": "EurasianRuffe",
+      "display_name": "EurasianRuffe",
+      "category": "Unknown"
+    },
+    {
+      "id": 90,
+      "name": "CommonCarp",
+      "display_name": "CommonCarp",
+      "category": "Unknown"
+    },
+    {
+      "id": 91,
+      "name": "WhiteSucker",
+      "display_name": "WhiteSucker",
+      "category": "Unknown"
+    },
+    {
+      "id": 92,
+      "name": "SmallmouthBuffalo",
+      "display_name": "SmallmouthBuffalo",
+      "category": "Unknown"
+    },
+    {
+      "id": 93,
+      "name": "LongnoseSucker",
+      "display_name": "LongnoseSucker",
+      "category": "Unknown"
+    },
+    {
+      "id": 94,
+      "name": "MirrorCarp",
+      "display_name": "MirrorCarp",
+      "category": "Unknown"
+    },
+    {
+      "id": 95,
+      "name": "NakedCarp",
+      "display_name": "NakedCarp",
+      "category": "Unknown"
+    },
+    {
+      "id": 96,
+      "name": "GhostCarp",
+      "display_name": "GhostCarp",
+      "category": "Unknown"
+    },
+    {
+      "id": 97,
+      "name": "CommonTench",
+      "display_name": "CommonTench",
+      "category": "Unknown"
+    },
+    {
+      "id": 98,
+      "name": "CommonBream",
+      "display_name": "CommonBream",
+      "category": "Unknown"
+    },
+    {
+      "id": 99,
+      "name": "SilverPrussianCarp",
+      "display_name": "SilverPrussianCarp",
+      "category": "Unknown"
+    },
+    {
+      "id": 101,
+      "name": "RedfinPickerel",
+      "display_name": "RedfinPickerel",
+      "category": "Unknown"
+    },
+    {
+      "id": 102,
+      "name": "GrassPickerel",
+      "display_name": "GrassPickerel",
+      "category": "Unknown"
+    },
+    {
+      "id": 103,
+      "name": "ChainPickerel",
+      "display_name": "ChainPickerel",
+      "category": "Unknown"
+    },
+    {
+      "id": 104,
+      "name": "NorthernPike",
+      "display_name": "NorthernPike",
+      "category": "Unknown"
+    },
+    {
+      "id": 105,
+      "name": "Muskie",
+      "display_name": "Muskie",
+      "category": "Unknown"
+    },
+    {
+      "id": 106,
+      "name": "TigerMuskie",
+      "display_name": "TigerMuskie",
+      "category": "Unknown"
+    },
+    {
+      "id": 107,
+      "name": "ClearMuskie",
+      "display_name": "ClearMuskie",
+      "category": "Unknown"
+    },
+    {
+      "id": 111,
+      "name": "LargemouthBass",
+      "display_name": "LargemouthBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 112,
+      "name": "SmallmouthBass",
+      "display_name": "SmallmouthBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 113,
+      "name": "StripedBass",
+      "display_name": "StripedBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 114,
+      "name": "SpottedBass",
+      "display_name": "SpottedBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 115,
+      "name": "RockBass",
+      "display_name": "RockBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 116,
+      "name": "ButterflyPeacockBass",
+      "display_name": "ButterflyPeacockBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 117,
+      "name": "WhiteBass",
+      "display_name": "WhiteBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 118,
+      "name": "SpeckledPeacockBass",
+      "display_name": "SpeckledPeacockBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 119,
+      "name": "NorthernSmallmouthBassBass",
+      "display_name": "NorthernSmallmouthBassBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 120,
+      "name": "ChannelCatfish",
+      "display_name": "ChannelCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 121,
+      "name": "BlueCatfish",
+      "display_name": "BlueCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 122,
+      "name": "FlatheadCatfish",
+      "display_name": "FlatheadCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 123,
+      "name": "BrownBullheadCatfish",
+      "display_name": "BrownBullheadCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 124,
+      "name": "BlackBullheadCatfish",
+      "display_name": "BlackBullheadCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 125,
+      "name": "WhiteCatfish",
+      "display_name": "WhiteCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 126,
+      "name": "WelsCatfish",
+      "display_name": "WelsCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 501,
+      "name": "RainbowTrout",
+      "display_name": "RainbowTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 502,
+      "name": "SteelheadTrout",
+      "display_name": "SteelheadTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 503,
+      "name": "CutthroatTrout",
+      "display_name": "CutthroatTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 504,
+      "name": "BrookTrout",
+      "display_name": "BrookTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 505,
+      "name": "BrownTrout",
+      "display_name": "BrownTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 506,
+      "name": "LakeTrout",
+      "display_name": "LakeTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 507,
+      "name": "FremontRiverRainbowTrout",
+      "display_name": "FremontRiverRainbowTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 508,
+      "name": "ColoradoGoldenTrout",
+      "display_name": "ColoradoGoldenTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 509,
+      "name": "DollyVarden",
+      "display_name": "DollyVarden",
+      "category": "Unknown"
+    },
+    {
+      "id": 510,
+      "name": "ArcticGrayling",
+      "display_name": "ArcticGrayling",
+      "category": "Unknown"
+    },
+    {
+      "id": 511,
+      "name": "Salwelinus",
+      "display_name": "Salwelinus",
+      "category": "Unknown"
+    },
+    {
+      "id": 512,
+      "name": "Splake",
+      "display_name": "Splake",
+      "category": "Unknown"
+    },
+    {
+      "id": 513,
+      "name": "OregonRedbandTrout",
+      "display_name": "OregonRedbandTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 514,
+      "name": "TigerTrout",
+      "display_name": "TigerTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 515,
+      "name": "EuropeanGrayling",
+      "display_name": "EuropeanGrayling",
+      "category": "Unknown"
+    },
+    {
+      "id": 516,
+      "name": "MarbleTrout",
+      "display_name": "MarbleTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 517,
+      "name": "CreekBrownTrout",
+      "display_name": "CreekBrownTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 518,
+      "name": "Lenok",
+      "display_name": "Lenok",
+      "category": "Unknown"
+    },
+    {
+      "id": 519,
+      "name": "EuropeanBrownTrout",
+      "display_name": "EuropeanBrownTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 590,
+      "name": "FurryTrout",
+      "display_name": "FurryTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 600,
+      "name": "WhiteSturgeon",
+      "display_name": "WhiteSturgeon",
+      "category": "Unknown"
+    },
+    {
+      "id": 601,
+      "name": "Sterlet",
+      "display_name": "Sterlet",
+      "category": "Unknown"
+    },
+    {
+      "id": 602,
+      "name": "Beluga",
+      "display_name": "Beluga",
+      "category": "Unknown"
+    },
+    {
+      "id": 603,
+      "name": "LakeSturgeon",
+      "display_name": "LakeSturgeon",
+      "category": "Unknown"
+    },
+    {
+      "id": 701,
+      "name": "ChinookSalmon",
+      "display_name": "ChinookSalmon",
+      "category": "Unknown"
+    },
+    {
+      "id": 702,
+      "name": "AtlanticSalmon",
+      "display_name": "AtlanticSalmon",
+      "category": "Unknown"
+    },
+    {
+      "id": 703,
+      "name": "SockeyeSalmon",
+      "display_name": "SockeyeSalmon",
+      "category": "Unknown"
+    },
+    {
+      "id": 704,
+      "name": "PinkSalmon",
+      "display_name": "PinkSalmon",
+      "category": "Unknown"
+    },
+    {
+      "id": 705,
+      "name": "CohoSalmon",
+      "display_name": "CohoSalmon",
+      "category": "Unknown"
+    },
+    {
+      "id": 706,
+      "name": "ChumSalmon",
+      "display_name": "ChumSalmon",
+      "category": "Unknown"
+    },
+    {
+      "id": 707,
+      "name": "LakeWhitefish",
+      "display_name": "LakeWhitefish",
+      "category": "Unknown"
+    },
+    {
+      "id": 708,
+      "name": "CommonWhitefish",
+      "display_name": "CommonWhitefish",
+      "category": "Unknown"
+    },
+    {
+      "id": 709,
+      "name": "SiberianTaimen",
+      "display_name": "SiberianTaimen",
+      "category": "Unknown"
+    },
+    {
+      "id": 711,
+      "name": "Vendace",
+      "display_name": "Vendace",
+      "category": "Unknown"
+    },
+    {
+      "id": 801,
+      "name": "AlligatorGar",
+      "display_name": "AlligatorGar",
+      "category": "Unknown"
+    },
+    {
+      "id": 802,
+      "name": "FloridaGar",
+      "display_name": "FloridaGar",
+      "category": "Unknown"
+    },
+    {
+      "id": 803,
+      "name": "LongnoseGar",
+      "display_name": "LongnoseGar",
+      "category": "Unknown"
+    },
+    {
+      "id": 804,
+      "name": "BlackGar",
+      "display_name": "BlackGar",
+      "category": "Unknown"
+    },
+    {
+      "id": 805,
+      "name": "MonsterGar",
+      "display_name": "MonsterGar",
+      "category": "Unknown"
+    },
+    {
+      "id": 806,
+      "name": "AlbinoGar",
+      "display_name": "AlbinoGar",
+      "category": "Unknown"
+    },
+    {
+      "id": 808,
+      "name": "SpottedGar",
+      "display_name": "SpottedGar",
+      "category": "Unknown"
+    },
+    {
+      "id": 900,
+      "name": "Tarpon",
+      "display_name": "Tarpon",
+      "category": "Unknown"
+    },
+    {
+      "id": 901,
+      "name": "Bowfin",
+      "display_name": "Bowfin",
+      "category": "Unknown"
+    },
+    {
+      "id": 902,
+      "name": "Burbot",
+      "display_name": "Burbot",
+      "category": "Unknown"
+    },
+    {
+      "id": 903,
+      "name": "AmericanShad",
+      "display_name": "AmericanShad",
+      "category": "Unknown"
+    },
+    {
+      "id": 904,
+      "name": "AlaskaBlackfish",
+      "display_name": "AlaskaBlackfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 905,
+      "name": "Paddlefish",
+      "display_name": "Paddlefish",
+      "category": "Unknown"
+    },
+    {
+      "id": 906,
+      "name": "RedDrum",
+      "display_name": "RedDrum",
+      "category": "Unknown"
+    },
+    {
+      "id": 907,
+      "name": "CommonSnook",
+      "display_name": "CommonSnook",
+      "category": "Unknown"
+    },
+    {
+      "id": 908,
+      "name": "GafftopsailCatfish",
+      "display_name": "GafftopsailCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 909,
+      "name": "EuropeanChub",
+      "display_name": "EuropeanChub",
+      "category": "Unknown"
+    },
+    {
+      "id": 910,
+      "name": "GoldenTench",
+      "display_name": "GoldenTench",
+      "category": "Unknown"
+    },
+    {
+      "id": 911,
+      "name": "CommonRoach",
+      "display_name": "CommonRoach",
+      "category": "Unknown"
+    },
+    {
+      "id": 912,
+      "name": "Asp",
+      "display_name": "Asp",
+      "category": "Unknown"
+    },
+    {
+      "id": 913,
+      "name": "CrucianCarp",
+      "display_name": "CrucianCarp",
+      "category": "Unknown"
+    },
+    {
+      "id": 914,
+      "name": "CommonRudd",
+      "display_name": "CommonRudd",
+      "category": "Unknown"
+    },
+    {
+      "id": 915,
+      "name": "SilverBream",
+      "display_name": "SilverBream",
+      "category": "Unknown"
+    },
+    {
+      "id": 916,
+      "name": "BlueBream",
+      "display_name": "BlueBream",
+      "category": "Unknown"
+    },
+    {
+      "id": 917,
+      "name": "Gudgeon",
+      "display_name": "Gudgeon",
+      "category": "Unknown"
+    },
+    {
+      "id": 918,
+      "name": "Ide",
+      "display_name": "Ide",
+      "category": "Unknown"
+    },
+    {
+      "id": 919,
+      "name": "CaspianRoach",
+      "display_name": "CaspianRoach",
+      "category": "Unknown"
+    },
+    {
+      "id": 920,
+      "name": "GrassCarp",
+      "display_name": "GrassCarp",
+      "category": "Unknown"
+    },
+    {
+      "id": 921,
+      "name": "CommonBleak",
+      "display_name": "CommonBleak",
+      "category": "Unknown"
+    },
+    {
+      "id": 922,
+      "name": "WhiteeyeBream",
+      "display_name": "WhiteeyeBream",
+      "category": "Unknown"
+    },
+    {
+      "id": 923,
+      "name": "EuropeanBitterling",
+      "display_name": "EuropeanBitterling",
+      "category": "Unknown"
+    },
+    {
+      "id": 924,
+      "name": "CommonDace",
+      "display_name": "CommonDace",
+      "category": "Unknown"
+    },
+    {
+      "id": 925,
+      "name": "Ziege",
+      "display_name": "Ziege",
+      "category": "Unknown"
+    },
+    {
+      "id": 926,
+      "name": "CommonBarbel",
+      "display_name": "CommonBarbel",
+      "category": "Unknown"
+    },
+    {
+      "id": 927,
+      "name": "CommonNase",
+      "display_name": "CommonNase",
+      "category": "Unknown"
+    },
+    {
+      "id": 928,
+      "name": "MonkeyGoby",
+      "display_name": "MonkeyGoby",
+      "category": "Unknown"
+    },
+    {
+      "id": 929,
+      "name": "RoundGoby",
+      "display_name": "RoundGoby",
+      "category": "Unknown"
+    },
+    {
+      "id": 930,
+      "name": "EuropeanEel",
+      "display_name": "EuropeanEel",
+      "category": "Unknown"
+    },
+    {
+      "id": 931,
+      "name": "EuropeanWeatherfish",
+      "display_name": "EuropeanWeatherfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 932,
+      "name": "ChineseSleeper",
+      "display_name": "ChineseSleeper",
+      "category": "Unknown"
+    },
+    {
+      "id": 933,
+      "name": "ThicklipGreyMullet",
+      "display_name": "ThicklipGreyMullet",
+      "category": "Unknown"
+    },
+    {
+      "id": 934,
+      "name": "EuropeanFlounder",
+      "display_name": "EuropeanFlounder",
+      "category": "Unknown"
+    },
+    {
+      "id": 935,
+      "name": "BigheadCarp",
+      "display_name": "BigheadCarp",
+      "category": "Unknown"
+    },
+    {
+      "id": 936,
+      "name": "SilverCarp",
+      "display_name": "SilverCarp",
+      "category": "Unknown"
+    },
+    {
+      "id": 937,
+      "name": "HybridF1Carp",
+      "display_name": "HybridF1Carp",
+      "category": "Unknown"
+    },
+    {
+      "id": 938,
+      "name": "Permit",
+      "display_name": "Permit",
+      "category": "Unknown"
+    },
+    {
+      "id": 939,
+      "name": "Bonefish",
+      "display_name": "Bonefish",
+      "category": "Unknown"
+    },
+    {
+      "id": 940,
+      "name": "SouthernFlounder",
+      "display_name": "SouthernFlounder",
+      "category": "Unknown"
+    },
+    {
+      "id": 1530,
+      "name": "BlackDrum",
+      "display_name": "BlackDrum",
+      "category": "Unknown"
+    },
+    {
+      "id": 1540,
+      "name": "GizzardShad",
+      "display_name": "GizzardShad",
+      "category": "Unknown"
+    },
+    {
+      "id": 1580,
+      "name": "BigmouthBuffalo",
+      "display_name": "BigmouthBuffalo",
+      "category": "Unknown"
+    },
+    {
+      "id": 1590,
+      "name": "ShoalBass",
+      "display_name": "ShoalBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 1300,
+      "name": "RedtailCatfish",
+      "display_name": "RedtailCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 1310,
+      "name": "GildedCatfish",
+      "display_name": "GildedCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 1320,
+      "name": "Piraiba",
+      "display_name": "Piraiba",
+      "category": "Unknown"
+    },
+    {
+      "id": 1330,
+      "name": "SorubimCatfish",
+      "display_name": "SorubimCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 1340,
+      "name": "FlatwhiskeredCatfish",
+      "display_name": "FlatwhiskeredCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 1350,
+      "name": "Jacunda",
+      "display_name": "Jacunda",
+      "category": "Unknown"
+    },
+    {
+      "id": 1370,
+      "name": "BandedAracu",
+      "display_name": "BandedAracu",
+      "category": "Unknown"
+    },
+    {
+      "id": 1400,
+      "name": "SpottedAracu",
+      "display_name": "SpottedAracu",
+      "category": "Unknown"
+    },
+    {
+      "id": 1420,
+      "name": "RedTailBarracuda",
+      "display_name": "RedTailBarracuda",
+      "category": "Unknown"
+    },
+    {
+      "id": 1440,
+      "name": "RipsawCatfish",
+      "display_name": "RipsawCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 1480,
+      "name": "RedBelliedPiranha",
+      "display_name": "RedBelliedPiranha",
+      "category": "Unknown"
+    },
+    {
+      "id": 1500,
+      "name": "RedeyePiranha",
+      "display_name": "RedeyePiranha",
+      "category": "Unknown"
+    },
+    {
+      "id": 1520,
+      "name": "Tambaqui",
+      "display_name": "Tambaqui",
+      "category": "Unknown"
+    },
+    {
+      "id": 1650,
+      "name": "Payara",
+      "display_name": "Payara",
+      "category": "Unknown"
+    },
+    {
+      "id": 1660,
+      "name": "Biara",
+      "display_name": "Biara",
+      "category": "Unknown"
+    },
+    {
+      "id": 1680,
+      "name": "SilverArowana",
+      "display_name": "SilverArowana",
+      "category": "Unknown"
+    },
+    {
+      "id": 1690,
+      "name": "Arapaima",
+      "display_name": "Arapaima",
+      "category": "Unknown"
+    },
+    {
+      "id": 1710,
+      "name": "Brycon",
+      "display_name": "Brycon",
+      "category": "Unknown"
+    },
+    {
+      "id": 1720,
+      "name": "FlagTailedProchilodus",
+      "display_name": "FlagTailedProchilodus",
+      "category": "Unknown"
+    },
+    {
+      "id": 1730,
+      "name": "SilverCroaker",
+      "display_name": "SilverCroaker",
+      "category": "Unknown"
+    },
+    {
+      "id": 1750,
+      "name": "Bicuda",
+      "display_name": "Bicuda",
+      "category": "Unknown"
+    },
+    {
+      "id": 1760,
+      "name": "Trahira",
+      "display_name": "Trahira",
+      "category": "Unknown"
+    },
+    {
+      "id": 1770,
+      "name": "BullShark",
+      "display_name": "BullShark",
+      "category": "Unknown"
+    },
+    {
+      "id": 1780,
+      "name": "ElectricEel",
+      "display_name": "ElectricEel",
+      "category": "Unknown"
+    },
+    {
+      "id": 1790,
+      "name": "RedPeacockBass",
+      "display_name": "RedPeacockBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 1800,
+      "name": "OrinocoPeacockBass",
+      "display_name": "OrinocoPeacockBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 1810,
+      "name": "Apapa",
+      "display_name": "Apapa",
+      "category": "Unknown"
+    },
+    {
+      "id": 1940,
+      "name": "GiraffeCatfish",
+      "display_name": "GiraffeCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 1950,
+      "name": "AfricanBigEyeCatfish",
+      "display_name": "AfricanBigEyeCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 1960,
+      "name": "Vundu",
+      "display_name": "Vundu",
+      "category": "Unknown"
+    },
+    {
+      "id": 1970,
+      "name": "KambaCatfish",
+      "display_name": "KambaCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 1990,
+      "name": "AfricanSharptoothCatfish",
+      "display_name": "AfricanSharptoothCatfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2020,
+      "name": "NilePerch",
+      "display_name": "NilePerch",
+      "category": "Unknown"
+    },
+    {
+      "id": 2030,
+      "name": "GoliathTigerfish",
+      "display_name": "GoliathTigerfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2040,
+      "name": "AfricanTigerfish",
+      "display_name": "AfricanTigerfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2050,
+      "name": "CornishJack",
+      "display_name": "CornishJack",
+      "category": "Unknown"
+    },
+    {
+      "id": 2060,
+      "name": "AfricanPike",
+      "display_name": "AfricanPike",
+      "category": "Unknown"
+    },
+    {
+      "id": 2070,
+      "name": "CongoYellowfish",
+      "display_name": "CongoYellowfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2090,
+      "name": "RednoseLabeo",
+      "display_name": "RednoseLabeo",
+      "category": "Unknown"
+    },
+    {
+      "id": 2100,
+      "name": "PurpleLabeo",
+      "display_name": "PurpleLabeo",
+      "category": "Unknown"
+    },
+    {
+      "id": 2110,
+      "name": "ElephantFish",
+      "display_name": "ElephantFish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2120,
+      "name": "BulldogFish",
+      "display_name": "BulldogFish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2130,
+      "name": "BandedTilapia",
+      "display_name": "BandedTilapia",
+      "category": "Unknown"
+    },
+    {
+      "id": 2140,
+      "name": "NileTilapia",
+      "display_name": "NileTilapia",
+      "category": "Unknown"
+    },
+    {
+      "id": 2210,
+      "name": "AmurBitterling",
+      "display_name": "AmurBitterling",
+      "category": "Unknown"
+    },
+    {
+      "id": 2220,
+      "name": "EurasianMinnow",
+      "display_name": "EurasianMinnow",
+      "category": "Unknown"
+    },
+    {
+      "id": 2240,
+      "name": "HumpbackWhitefish",
+      "display_name": "HumpbackWhitefish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2250,
+      "name": "BaikalOmul",
+      "display_name": "BaikalOmul",
+      "category": "Unknown"
+    },
+    {
+      "id": 2284,
+      "name": "YellowfinTuna",
+      "display_name": "YellowfinTuna",
+      "category": "Unknown"
+    },
+    {
+      "id": 2285,
+      "name": "BigeyeTuna",
+      "display_name": "BigeyeTuna",
+      "category": "Unknown"
+    },
+    {
+      "id": 2286,
+      "name": "PacificBluefinTuna",
+      "display_name": "PacificBluefinTuna",
+      "category": "Unknown"
+    },
+    {
+      "id": 2287,
+      "name": "LongfinTuna",
+      "display_name": "LongfinTuna",
+      "category": "Unknown"
+    },
+    {
+      "id": 2288,
+      "name": "SkipjackTuna",
+      "display_name": "SkipjackTuna",
+      "category": "Unknown"
+    },
+    {
+      "id": 2289,
+      "name": "DogtoothTuna",
+      "display_name": "DogtoothTuna",
+      "category": "Unknown"
+    },
+    {
+      "id": 2290,
+      "name": "GreaterAmberjack",
+      "display_name": "GreaterAmberjack",
+      "category": "Unknown"
+    },
+    {
+      "id": 2291,
+      "name": "JapaneseAmberjack",
+      "display_name": "JapaneseAmberjack",
+      "category": "Unknown"
+    },
+    {
+      "id": 2292,
+      "name": "GiantTrevally",
+      "display_name": "GiantTrevally",
+      "category": "Unknown"
+    },
+    {
+      "id": 2293,
+      "name": "NarrowBarredSpanishMackerel",
+      "display_name": "NarrowBarredSpanishMackerel",
+      "category": "Unknown"
+    },
+    {
+      "id": 2294,
+      "name": "StripedBonito",
+      "display_name": "StripedBonito",
+      "category": "Unknown"
+    },
+    {
+      "id": 2295,
+      "name": "StripedMarlin",
+      "display_name": "StripedMarlin",
+      "category": "Unknown"
+    },
+    {
+      "id": 2296,
+      "name": "GiantGrouper",
+      "display_name": "GiantGrouper",
+      "category": "Unknown"
+    },
+    {
+      "id": 2297,
+      "name": "RubySnapper",
+      "display_name": "RubySnapper",
+      "category": "Unknown"
+    },
+    {
+      "id": 2298,
+      "name": "GreenJobfish",
+      "display_name": "GreenJobfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2299,
+      "name": "MahiMahi",
+      "display_name": "MahiMahi",
+      "category": "Unknown"
+    },
+    {
+      "id": 2301,
+      "name": "JapaneseJackMackerel",
+      "display_name": "JapaneseJackMackerel",
+      "category": "Unknown"
+    },
+    {
+      "id": 2302,
+      "name": "JapaneseAnchovy",
+      "display_name": "JapaneseAnchovy",
+      "category": "Unknown"
+    },
+    {
+      "id": 2304,
+      "name": "BigfinReefSquid",
+      "display_name": "BigfinReefSquid",
+      "category": "Unknown"
+    },
+    {
+      "id": 1000,
+      "name": "HistoricSpottedBass",
+      "display_name": "HistoricSpottedBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 1001,
+      "name": "HistoricWhiteCrappie",
+      "display_name": "HistoricWhiteCrappie",
+      "category": "Unknown"
+    },
+    {
+      "id": 1002,
+      "name": "HistoricChainPickerel",
+      "display_name": "HistoricChainPickerel",
+      "category": "Unknown"
+    },
+    {
+      "id": 1003,
+      "name": "HistoricCutthroatTrout",
+      "display_name": "HistoricCutthroatTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 1004,
+      "name": "HistoricSmallmouthBass",
+      "display_name": "HistoricSmallmouthBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 1005,
+      "name": "HistoricRainbowTrout",
+      "display_name": "HistoricRainbowTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 1006,
+      "name": "HistoricLargemouthBass",
+      "display_name": "HistoricLargemouthBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 1007,
+      "name": "HistoricChinookSalmon",
+      "display_name": "HistoricChinookSalmon",
+      "category": "Unknown"
+    },
+    {
+      "id": 1008,
+      "name": "HistoricMuskie",
+      "display_name": "HistoricMuskie",
+      "category": "Unknown"
+    },
+    {
+      "id": 1009,
+      "name": "RowdyBass",
+      "display_name": "RowdyBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 1010,
+      "name": "HistoricButterflyPeacockBass",
+      "display_name": "HistoricButterflyPeacockBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 1011,
+      "name": "HistoricStripedBass",
+      "display_name": "HistoricStripedBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 1012,
+      "name": "GhostPike",
+      "display_name": "GhostPike",
+      "category": "Unknown"
+    },
+    {
+      "id": 1013,
+      "name": "BluegillSkeleton",
+      "display_name": "BluegillSkeleton",
+      "category": "Unknown"
+    },
+    {
+      "id": 1014,
+      "name": "AntleredSalmon",
+      "display_name": "AntleredSalmon",
+      "category": "Unknown"
+    },
+    {
+      "id": 1015,
+      "name": "MonsterMuskie",
+      "display_name": "MonsterMuskie",
+      "category": "Unknown"
+    },
+    {
+      "id": 1016,
+      "name": "MonsterFlathead",
+      "display_name": "MonsterFlathead",
+      "category": "Unknown"
+    },
+    {
+      "id": 1017,
+      "name": "MonsterBowfin",
+      "display_name": "MonsterBowfin",
+      "category": "Unknown"
+    },
+    {
+      "id": 1018,
+      "name": "MonsterWalleye",
+      "display_name": "MonsterWalleye",
+      "category": "Unknown"
+    },
+    {
+      "id": 1019,
+      "name": "MonsterCutthroatTrout",
+      "display_name": "MonsterCutthroatTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 1020,
+      "name": "MonsterLongnoseGar",
+      "display_name": "MonsterLongnoseGar",
+      "category": "Unknown"
+    },
+    {
+      "id": 1021,
+      "name": "MonsterTarpon",
+      "display_name": "MonsterTarpon",
+      "category": "Unknown"
+    },
+    {
+      "id": 1022,
+      "name": "MonsterBurbot",
+      "display_name": "MonsterBurbot",
+      "category": "Unknown"
+    },
+    {
+      "id": 1023,
+      "name": "MonsterStripedBass",
+      "display_name": "MonsterStripedBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 1024,
+      "name": "MonsterAlaskaBlackfish",
+      "display_name": "MonsterAlaskaBlackfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 1025,
+      "name": "MonsterSmallmouthBuffalo",
+      "display_name": "MonsterSmallmouthBuffalo",
+      "category": "Unknown"
+    },
+    {
+      "id": 2307,
+      "name": "BlackSeaRoach",
+      "display_name": "BlackSeaRoach",
+      "category": "Unknown"
+    },
+    {
+      "id": 2308,
+      "name": "TwaitShad",
+      "display_name": "TwaitShad",
+      "category": "Unknown"
+    },
+    {
+      "id": 2318,
+      "name": "BlackMarlin",
+      "display_name": "BlackMarlin",
+      "category": "Unknown"
+    },
+    {
+      "id": 2319,
+      "name": "Swordfish",
+      "display_name": "Swordfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2320,
+      "name": "Sailfish",
+      "display_name": "Sailfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2321,
+      "name": "TwoSpotRedSnapper",
+      "display_name": "TwoSpotRedSnapper",
+      "category": "Unknown"
+    },
+    {
+      "id": 2322,
+      "name": "SpotfinFlyingfish",
+      "display_name": "SpotfinFlyingfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2323,
+      "name": "YellowstripeScad",
+      "display_name": "YellowstripeScad",
+      "category": "Unknown"
+    },
+    {
+      "id": 2324,
+      "name": "Wahoo",
+      "display_name": "Wahoo",
+      "category": "Unknown"
+    },
+    {
+      "id": 2325,
+      "name": "IndoPacificKingMackerel",
+      "display_name": "IndoPacificKingMackerel",
+      "category": "Unknown"
+    },
+    {
+      "id": 2326,
+      "name": "GorgeousSwallowtail",
+      "display_name": "GorgeousSwallowtail",
+      "category": "Unknown"
+    },
+    {
+      "id": 2327,
+      "name": "SicklePomfret",
+      "display_name": "SicklePomfret",
+      "category": "Unknown"
+    },
+    {
+      "id": 2328,
+      "name": "GiantSweetlips",
+      "display_name": "GiantSweetlips",
+      "category": "Unknown"
+    },
+    {
+      "id": 2329,
+      "name": "GreatBarracuda",
+      "display_name": "GreatBarracuda",
+      "category": "Unknown"
+    },
+    {
+      "id": 2330,
+      "name": "SleekUnicornfish",
+      "display_name": "SleekUnicornfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2333,
+      "name": "BlacktipReefShark",
+      "display_name": "BlacktipReefShark",
+      "category": "Unknown"
+    },
+    {
+      "id": 2339,
+      "name": "AtlanticSaury",
+      "display_name": "AtlanticSaury",
+      "category": "Unknown"
+    },
+    {
+      "id": 2340,
+      "name": "AtlanticHerring",
+      "display_name": "AtlanticHerring",
+      "category": "Unknown"
+    },
+    {
+      "id": 2341,
+      "name": "AtlanticHorseMackerel",
+      "display_name": "AtlanticHorseMackerel",
+      "category": "Unknown"
+    },
+    {
+      "id": 2338,
+      "name": "AtlanticMackerel",
+      "display_name": "AtlanticMackerel",
+      "category": "Unknown"
+    },
+    {
+      "id": 2342,
+      "name": "AtlanticWolffish",
+      "display_name": "AtlanticWolffish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2343,
+      "name": "EuropeanAngler",
+      "display_name": "EuropeanAngler",
+      "category": "Unknown"
+    },
+    {
+      "id": 2344,
+      "name": "Meagre",
+      "display_name": "Meagre",
+      "category": "Unknown"
+    },
+    {
+      "id": 2346,
+      "name": "NorwaySeaperch",
+      "display_name": "NorwaySeaperch",
+      "category": "Unknown"
+    },
+    {
+      "id": 2347,
+      "name": "EuropeanSeaSturgeon",
+      "display_name": "EuropeanSeaSturgeon",
+      "category": "Unknown"
+    },
+    {
+      "id": 2348,
+      "name": "NorwayAtlanticSalmon",
+      "display_name": "NorwayAtlanticSalmon",
+      "category": "Unknown"
+    },
+    {
+      "id": 2349,
+      "name": "SeaTrout",
+      "display_name": "SeaTrout",
+      "category": "Unknown"
+    },
+    {
+      "id": 2350,
+      "name": "ArcticChar",
+      "display_name": "ArcticChar",
+      "category": "Unknown"
+    },
+    {
+      "id": 2351,
+      "name": "GreenlandShark",
+      "display_name": "GreenlandShark",
+      "category": "Unknown"
+    },
+    {
+      "id": 2352,
+      "name": "SpinyDogfish",
+      "display_name": "SpinyDogfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2354,
+      "name": "AtlanticHalibut",
+      "display_name": "AtlanticHalibut",
+      "category": "Unknown"
+    },
+    {
+      "id": 2355,
+      "name": "Brill",
+      "display_name": "Brill",
+      "category": "Unknown"
+    },
+    {
+      "id": 2356,
+      "name": "GreenlandHalibut",
+      "display_name": "GreenlandHalibut",
+      "category": "Unknown"
+    },
+    {
+      "id": 2358,
+      "name": "AtlanticCod",
+      "display_name": "AtlanticCod",
+      "category": "Unknown"
+    },
+    {
+      "id": 2359,
+      "name": "Coalfish",
+      "display_name": "Coalfish",
+      "category": "Unknown"
+    },
+    {
+      "id": 2360,
+      "name": "Haddock",
+      "display_name": "Haddock",
+      "category": "Unknown"
+    },
+    {
+      "id": 2361,
+      "name": "Whiting",
+      "display_name": "Whiting",
+      "category": "Unknown"
+    },
+    {
+      "id": 2362,
+      "name": "CommonLing",
+      "display_name": "CommonLing",
+      "category": "Unknown"
+    },
+    {
+      "id": 2363,
+      "name": "Cusk",
+      "display_name": "Cusk",
+      "category": "Unknown"
+    },
+    {
+      "id": 2368,
+      "name": "PorbeagleShark",
+      "display_name": "PorbeagleShark",
+      "category": "Unknown"
+    },
+    {
+      "id": 2364,
+      "name": "EuropeanHake",
+      "display_name": "EuropeanHake",
+      "category": "Unknown"
+    },
+    {
+      "id": 2369,
+      "name": "YellowBass",
+      "display_name": "YellowBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 2370,
+      "name": "ThreadfinShad",
+      "display_name": "ThreadfinShad",
+      "category": "Unknown"
+    },
+    {
+      "id": 2371,
+      "name": "GuadalupeBass",
+      "display_name": "GuadalupeBass",
+      "category": "Unknown"
+    },
+    {
+      "id": 2372,
+      "name": "ShortnoseGar",
+      "display_name": "ShortnoseGar",
+      "category": "Unknown"
+    },
+    {
+      "id": 2373,
+      "name": "LongnoseDace",
+      "display_name": "LongnoseDace",
+      "category": "Unknown"
+    },
+    {
+      "id": 2374,
+      "name": "GreenbackCtthTrout",
+      "display_name": "GreenbackCtthTrout",
+      "category": "Unknown"
+    }
+  ]
+}

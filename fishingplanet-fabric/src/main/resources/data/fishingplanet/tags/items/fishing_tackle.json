@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "fishingplanet:rod",
+    "fishingplanet:reel",
+    "fishingplanet:line",
+    "fishingplanet:hook",
+    "fishingplanet:lure",
+    "fishingplanet:bobber",
+    "fishingplanet:tackle_box"
+  ]
+}

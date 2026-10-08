@@ -1,0 +1,638 @@
+{
+  "version": "1.0",
+  "source": "Fishing Planet (inferred from game data)",
+  "extraction_date": "2026-10-07",
+  "count": 30,
+  "items": [
+    {
+      "id": "rod_float_1",
+      "name": "Telescopic Float Rod",
+      "type": "Float",
+      "tier": 1,
+      "power": "Light",
+      "action": "Slow",
+      "length_m": 4.5,
+      "weight_g": 180,
+      "price": 5000,
+      "casting_weight_g": [
+        2,
+        10
+      ],
+      "line_rating_kg": [
+        2,
+        6
+      ],
+      "description": "Float fishing rod",
+      "unlock_level": 5
+    },
+    {
+      "id": "rod_float_2",
+      "name": "Match Float Rod",
+      "type": "Float",
+      "tier": 2,
+      "power": "Light",
+      "action": "Slow",
+      "length_m": 4.65,
+      "weight_g": 220,
+      "price": 10000,
+      "casting_weight_g": [
+        2,
+        10
+      ],
+      "line_rating_kg": [
+        2,
+        6
+      ],
+      "description": "Float fishing rod",
+      "unlock_level": 10
+    },
+    {
+      "id": "rod_float_3",
+      "name": "Bolognese Rod",
+      "type": "Float",
+      "tier": 3,
+      "power": "Light",
+      "action": "Slow",
+      "length_m": 4.8,
+      "weight_g": 260,
+      "price": 15000,
+      "casting_weight_g": [
+        2,
+        10
+      ],
+      "line_rating_kg": [
+        2,
+        6
+      ],
+      "description": "Float fishing rod",
+      "unlock_level": 15
+    },
+    {
+      "id": "rod_float_4",
+      "name": "Carbon Float Rod",
+      "type": "Float",
+      "tier": 4,
+      "power": "Light",
+      "action": "Slow",
+      "length_m": 4.95,
+      "weight_g": 300,
+      "price": 20000,
+      "casting_weight_g": [
+        2,
+        10
+      ],
+      "line_rating_kg": [
+        2,
+        6
+      ],
+      "description": "Float fishing rod",
+      "unlock_level": 20
+    },
+    {
+      "id": "rod_float_5",
+      "name": "Pro Match Rod",
+      "type": "Float",
+      "tier": 5,
+      "power": "Light",
+      "action": "Slow",
+      "length_m": 5.1,
+      "weight_g": 340,
+      "price": 25000,
+      "casting_weight_g": [
+        2,
+        10
+      ],
+      "line_rating_kg": [
+        2,
+        6
+      ],
+      "description": "Float fishing rod",
+      "unlock_level": 25
+    },
+    {
+      "id": "rod_jig_1",
+      "name": "Micro Jig Rod",
+      "type": "Jig",
+      "tier": 1,
+      "power": "Medium",
+      "action": "Fast",
+      "length_m": 2.4,
+      "weight_g": 180,
+      "price": 8000,
+      "casting_weight_g": [
+        10,
+        30
+      ],
+      "line_rating_kg": [
+        6,
+        12
+      ],
+      "description": "Jigging rod",
+      "unlock_level": 5
+    },
+    {
+      "id": "rod_jig_2",
+      "name": "Light Jig Rod",
+      "type": "Jig",
+      "tier": 2,
+      "power": "Medium",
+      "action": "Fast",
+      "length_m": 2.55,
+      "weight_g": 220,
+      "price": 16000,
+      "casting_weight_g": [
+        10,
+        30
+      ],
+      "line_rating_kg": [
+        6,
+        12
+      ],
+      "description": "Jigging rod",
+      "unlock_level": 10
+    },
+    {
+      "id": "rod_jig_3",
+      "name": "Medium Jig Rod",
+      "type": "Jig",
+      "tier": 3,
+      "power": "Medium",
+      "action": "Fast",
+      "length_m": 2.7,
+      "weight_g": 260,
+      "price": 24000,
+      "casting_weight_g": [
+        10,
+        30
+      ],
+      "line_rating_kg": [
+        6,
+        12
+      ],
+      "description": "Jigging rod",
+      "unlock_level": 15
+    },
+    {
+      "id": "rod_jig_4",
+      "name": "Heavy Jig Rod",
+      "type": "Jig",
+      "tier": 4,
+      "power": "Medium",
+      "action": "Fast",
+      "length_m": 2.85,
+      "weight_g": 300,
+      "price": 32000,
+      "casting_weight_g": [
+        10,
+        30
+      ],
+      "line_rating_kg": [
+        6,
+        12
+      ],
+      "description": "Jigging rod",
+      "unlock_level": 20
+    },
+    {
+      "id": "rod_jig_5",
+      "name": "Titanium Jig Rod",
+      "type": "Jig",
+      "tier": 5,
+      "power": "Medium",
+      "action": "Fast",
+      "length_m": 3.0,
+      "weight_g": 340,
+      "price": 40000,
+      "casting_weight_g": [
+        10,
+        30
+      ],
+      "line_rating_kg": [
+        6,
+        12
+      ],
+      "description": "Jigging rod",
+      "unlock_level": 25
+    },
+    {
+      "id": "rod_lure_1",
+      "name": "Ultralight Spin Rod",
+      "type": "Lure",
+      "tier": 1,
+      "power": "Medium-Heavy",
+      "action": "Fast",
+      "length_m": 2.1,
+      "weight_g": 180,
+      "price": 10000,
+      "casting_weight_g": [
+        15,
+        40
+      ],
+      "line_rating_kg": [
+        8,
+        15
+      ],
+      "description": "Lure casting rod",
+      "unlock_level": 5
+    },
+    {
+      "id": "rod_lure_2",
+      "name": "Light Spin Rod",
+      "type": "Lure",
+      "tier": 2,
+      "power": "Medium-Heavy",
+      "action": "Fast",
+      "length_m": 2.25,
+      "weight_g": 220,
+      "price": 20000,
+      "casting_weight_g": [
+        15,
+        40
+      ],
+      "line_rating_kg": [
+        8,
+        15
+      ],
+      "description": "Lure casting rod",
+      "unlock_level": 10
+    },
+    {
+      "id": "rod_lure_3",
+      "name": "Medium Spin Rod",
+      "type": "Lure",
+      "tier": 3,
+      "power": "Medium-Heavy",
+      "action": "Fast",
+      "length_m": 2.4,
+      "weight_g": 260,
+      "price": 30000,
+      "casting_weight_g": [
+        15,
+        40
+      ],
+      "line_rating_kg": [
+        8,
+        15
+      ],
+      "description": "Lure casting rod",
+      "unlock_level": 15
+    },
+    {
+      "id": "rod_lure_4",
+      "name": "Heavy Spin Rod",
+      "type": "Lure",
+      "tier": 4,
+      "power": "Medium-Heavy",
+      "action": "Fast",
+      "length_m": 2.55,
+      "weight_g": 300,
+      "price": 40000,
+      "casting_weight_g": [
+        15,
+        40
+      ],
+      "line_rating_kg": [
+        8,
+        15
+      ],
+      "description": "Lure casting rod",
+      "unlock_level": 20
+    },
+    {
+      "id": "rod_lure_5",
+      "name": "XH Spin Rod",
+      "type": "Lure",
+      "tier": 5,
+      "power": "Medium-Heavy",
+      "action": "Fast",
+      "length_m": 2.7,
+      "weight_g": 340,
+      "price": 50000,
+      "casting_weight_g": [
+        15,
+        40
+      ],
+      "line_rating_kg": [
+        8,
+        15
+      ],
+      "description": "Lure casting rod",
+      "unlock_level": 25
+    },
+    {
+      "id": "rod_bottom_1",
+      "name": "Ledger Rod",
+      "type": "Bottom",
+      "tier": 1,
+      "power": "Heavy",
+      "action": "Moderate",
+      "length_m": 3.6,
+      "weight_g": 180,
+      "price": 12000,
+      "casting_weight_g": [
+        40,
+        100
+      ],
+      "line_rating_kg": [
+        12,
+        25
+      ],
+      "description": "Bottom fishing rod",
+      "unlock_level": 5
+    },
+    {
+      "id": "rod_bottom_2",
+      "name": "Beachcaster",
+      "type": "Bottom",
+      "tier": 2,
+      "power": "Heavy",
+      "action": "Moderate",
+      "length_m": 3.75,
+      "weight_g": 220,
+      "price": 24000,
+      "casting_weight_g": [
+        40,
+        100
+      ],
+      "line_rating_kg": [
+        12,
+        25
+      ],
+      "description": "Bottom fishing rod",
+      "unlock_level": 10
+    },
+    {
+      "id": "rod_bottom_3",
+      "name": "Heavy Bottom Rod",
+      "type": "Bottom",
+      "tier": 3,
+      "power": "Heavy",
+      "action": "Moderate",
+      "length_m": 3.9,
+      "weight_g": 260,
+      "price": 36000,
+      "casting_weight_g": [
+        40,
+        100
+      ],
+      "line_rating_kg": [
+        12,
+        25
+      ],
+      "description": "Bottom fishing rod",
+      "unlock_level": 15
+    },
+    {
+      "id": "rod_bottom_4",
+      "name": "Surf Rod",
+      "type": "Bottom",
+      "tier": 4,
+      "power": "Heavy",
+      "action": "Moderate",
+      "length_m": 4.05,
+      "weight_g": 300,
+      "price": 48000,
+      "casting_weight_g": [
+        40,
+        100
+      ],
+      "line_rating_kg": [
+        12,
+        25
+      ],
+      "description": "Bottom fishing rod",
+      "unlock_level": 20
+    },
+    {
+      "id": "rod_bottom_5",
+      "name": "Distance Casting Rod",
+      "type": "Bottom",
+      "tier": 5,
+      "power": "Heavy",
+      "action": "Moderate",
+      "length_m": 4.2,
+      "weight_g": 340,
+      "price": 60000,
+      "casting_weight_g": [
+        40,
+        100
+      ],
+      "line_rating_kg": [
+        12,
+        25
+      ],
+      "description": "Bottom fishing rod",
+      "unlock_level": 25
+    },
+    {
+      "id": "rod_feeder_1",
+      "name": "Light Feeder Rod",
+      "type": "Feeder",
+      "tier": 1,
+      "power": "Medium",
+      "action": "Moderate",
+      "length_m": 3.9,
+      "weight_g": 180,
+      "price": 15000,
+      "casting_weight_g": [
+        10,
+        30
+      ],
+      "line_rating_kg": [
+        6,
+        12
+      ],
+      "description": "Feeder rod",
+      "unlock_level": 5
+    },
+    {
+      "id": "rod_feeder_2",
+      "name": "Method Feeder Rod",
+      "type": "Feeder",
+      "tier": 2,
+      "power": "Medium",
+      "action": "Moderate",
+      "length_m": 4.05,
+      "weight_g": 220,
+      "price": 30000,
+      "casting_weight_g": [
+        10,
+        30
+      ],
+      "line_rating_kg": [
+        6,
+        12
+      ],
+      "description": "Feeder rod",
+      "unlock_level": 10
+    },
+    {
+      "id": "rod_feeder_3",
+      "name": "Heavy Feeder Rod",
+      "type": "Feeder",
+      "tier": 3,
+      "power": "Medium",
+      "action": "Moderate",
+      "length_m": 4.2,
+      "weight_g": 260,
+      "price": 45000,
+      "casting_weight_g": [
+        10,
+        30
+      ],
+      "line_rating_kg": [
+        6,
+        12
+      ],
+      "description": "Feeder rod",
+      "unlock_level": 15
+    },
+    {
+      "id": "rod_feeder_4",
+      "name": "Competition Feeder",
+      "type": "Feeder",
+      "tier": 4,
+      "power": "Medium",
+      "action": "Moderate",
+      "length_m": 4.35,
+      "weight_g": 300,
+      "price": 60000,
+      "casting_weight_g": [
+        10,
+        30
+      ],
+      "line_rating_kg": [
+        6,
+        12
+      ],
+      "description": "Feeder rod",
+      "unlock_level": 20
+    },
+    {
+      "id": "rod_feeder_5",
+      "name": "Distance Feeder",
+      "type": "Feeder",
+      "tier": 5,
+      "power": "Medium",
+      "action": "Moderate",
+      "length_m": 4.5,
+      "weight_g": 340,
+      "price": 75000,
+      "casting_weight_g": [
+        10,
+        30
+      ],
+      "line_rating_kg": [
+        6,
+        12
+      ],
+      "description": "Feeder rod",
+      "unlock_level": 25
+    },
+    {
+      "id": "rod_spod_1",
+      "name": "Spod Rod",
+      "type": "Spod",
+      "tier": 1,
+      "power": "Heavy",
+      "action": "Fast",
+      "length_m": 3.6,
+      "weight_g": 180,
+      "price": 20000,
+      "casting_weight_g": [
+        40,
+        100
+      ],
+      "line_rating_kg": [
+        12,
+        25
+      ],
+      "description": "Spod/Marker rod",
+      "unlock_level": 5
+    },
+    {
+      "id": "rod_spod_2",
+      "name": "Marker Rod",
+      "type": "Spod",
+      "tier": 2,
+      "power": "Heavy",
+      "action": "Fast",
+      "length_m": 3.75,
+      "weight_g": 220,
+      "price": 40000,
+      "casting_weight_g": [
+        40,
+        100
+      ],
+      "line_rating_kg": [
+        12,
+        25
+      ],
+      "description": "Spod/Marker rod",
+      "unlock_level": 10
+    },
+    {
+      "id": "rod_spod_3",
+      "name": "Heavy Spod Rod",
+      "type": "Spod",
+      "tier": 3,
+      "power": "Heavy",
+      "action": "Fast",
+      "length_m": 3.9,
+      "weight_g": 260,
+      "price": 60000,
+      "casting_weight_g": [
+        40,
+        100
+      ],
+      "line_rating_kg": [
+        12,
+        25
+      ],
+      "description": "Spod/Marker rod",
+      "unlock_level": 15
+    },
+    {
+      "id": "rod_spod_4",
+      "name": "Spomb Rod",
+      "type": "Spod",
+      "tier": 4,
+      "power": "Heavy",
+      "action": "Fast",
+      "length_m": 4.05,
+      "weight_g": 300,
+      "price": 80000,
+      "casting_weight_g": [
+        40,
+        100
+      ],
+      "line_rating_kg": [
+        12,
+        25
+      ],
+      "description": "Spod/Marker rod",
+      "unlock_level": 20
+    },
+    {
+      "id": "rod_spod_5",
+      "name": "Pro Spod Rod",
+      "type": "Spod",
+      "tier": 5,
+      "power": "Heavy",
+      "action": "Fast",
+      "length_m": 4.2,
+      "weight_g": 340,
+      "price": 100000,
+      "casting_weight_g": [
+        40,
+        100
+      ],
+      "line_rating_kg": [
+        12,
+        25
+      ],
+      "description": "Spod/Marker rod",
+      "unlock_level": 25
+    }
+  ]
+}

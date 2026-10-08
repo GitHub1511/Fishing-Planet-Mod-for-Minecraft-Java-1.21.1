@@ -1,0 +1,5442 @@
+{
+  "version": "1.0",
+  "source": "Fishing Planet (Unity 6000.3.10, IL2CPP)",
+  "extraction_date": "2026-10-07",
+  "total_species": 286,
+  "species": [
+    {
+      "id": 61,
+      "name": "Pumpkinseed",
+      "display_name": "Pumpkinseed",
+      "category": "Sunfish",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 0.5,
+      "min_length_cm": 10,
+      "max_length_cm": 25,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:pumpkinseed",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/pumpkinseed"
+      }
+    },
+    {
+      "id": 62,
+      "name": "Bluegill",
+      "display_name": "Bluegill",
+      "category": "Sunfish",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 0.5,
+      "min_length_cm": 10,
+      "max_length_cm": 25,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:bluegill",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bluegill"
+      }
+    },
+    {
+      "id": 63,
+      "name": "Warmouth",
+      "display_name": "Warmouth",
+      "category": "Sunfish",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 0.5,
+      "min_length_cm": 10,
+      "max_length_cm": 25,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:warmouth",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/warmouth"
+      }
+    },
+    {
+      "id": 64,
+      "name": "RedearSunfish",
+      "display_name": "RedearSunfish",
+      "category": "Sunfish",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 0.5,
+      "min_length_cm": 10,
+      "max_length_cm": 25,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:redearsunfish",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/redearsunfish"
+      }
+    },
+    {
+      "id": 65,
+      "name": "RedbreastSunfish",
+      "display_name": "RedbreastSunfish",
+      "category": "Sunfish",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 0.5,
+      "min_length_cm": 10,
+      "max_length_cm": 25,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:redbreastsunfish",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/redbreastsunfish"
+      }
+    },
+    {
+      "id": 66,
+      "name": "GreenSunfish",
+      "display_name": "GreenSunfish",
+      "category": "Sunfish",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 0.5,
+      "min_length_cm": 10,
+      "max_length_cm": 25,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:greensunfish",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/greensunfish"
+      }
+    },
+    {
+      "id": 67,
+      "name": "SpottedSunfish",
+      "display_name": "SpottedSunfish",
+      "category": "Sunfish",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 0.5,
+      "min_length_cm": 10,
+      "max_length_cm": 25,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:spottedsunfish",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/spottedsunfish"
+      }
+    },
+    {
+      "id": 68,
+      "name": "BluespottedSunfish",
+      "display_name": "BluespottedSunfish",
+      "category": "Sunfish",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 0.5,
+      "min_length_cm": 10,
+      "max_length_cm": 25,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:bluespottedsunfish",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bluespottedsunfish"
+      }
+    },
+    {
+      "id": 69,
+      "name": "Oscar",
+      "display_name": "Oscar",
+      "category": "Sunfish",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 0.5,
+      "min_length_cm": 10,
+      "max_length_cm": 25,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:oscar",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/oscar"
+      }
+    },
+    {
+      "id": 70,
+      "name": "LeprechaunFish",
+      "display_name": "LeprechaunFish",
+      "category": "Sunfish",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 0.5,
+      "min_length_cm": 10,
+      "max_length_cm": 25,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:leprechaunfish",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/leprechaunfish"
+      }
+    },
+    {
+      "id": 71,
+      "name": "WhiteCrappie",
+      "display_name": "WhiteCrappie",
+      "category": "Crappie",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 1.5,
+      "min_length_cm": 15,
+      "max_length_cm": 35,
+      "habitat": "Freshwater",
+      "depth": "Shallow-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:whitecrappie",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/whitecrappie"
+      }
+    },
+    {
+      "id": 72,
+      "name": "BlackCrappie",
+      "display_name": "BlackCrappie",
+      "category": "Crappie",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 1.5,
+      "min_length_cm": 15,
+      "max_length_cm": 35,
+      "habitat": "Freshwater",
+      "depth": "Shallow-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:blackcrappie",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/blackcrappie"
+      }
+    },
+    {
+      "id": 73,
+      "name": "GoldenShiner",
+      "display_name": "GoldenShiner",
+      "category": "Shiner/Minnow",
+      "min_weight_kg": 0.01,
+      "max_weight_kg": 0.1,
+      "min_length_cm": 5,
+      "max_length_cm": 15,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:goldenshiner",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/goldenshiner"
+      }
+    },
+    {
+      "id": 74,
+      "name": "BluntnoseMinnow",
+      "display_name": "BluntnoseMinnow",
+      "category": "Shiner/Minnow",
+      "min_weight_kg": 0.01,
+      "max_weight_kg": 0.1,
+      "min_length_cm": 5,
+      "max_length_cm": 15,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:bluntnoseminnow",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bluntnoseminnow"
+      }
+    },
+    {
+      "id": 75,
+      "name": "CommonShiner",
+      "display_name": "CommonShiner",
+      "category": "Shiner/Minnow",
+      "min_weight_kg": 0.01,
+      "max_weight_kg": 0.1,
+      "min_length_cm": 5,
+      "max_length_cm": 15,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:commonshiner",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/commonshiner"
+      }
+    },
+    {
+      "id": 76,
+      "name": "BlacktailShiner",
+      "display_name": "BlacktailShiner",
+      "category": "Shiner/Minnow",
+      "min_weight_kg": 0.01,
+      "max_weight_kg": 0.1,
+      "min_length_cm": 5,
+      "max_length_cm": 15,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:blacktailshiner",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/blacktailshiner"
+      }
+    },
+    {
+      "id": 77,
+      "name": "CaliforniaRoach",
+      "display_name": "CaliforniaRoach",
+      "category": "Shiner/Minnow",
+      "min_weight_kg": 0.01,
+      "max_weight_kg": 0.1,
+      "min_length_cm": 5,
+      "max_length_cm": 15,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:californiaroach",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/californiaroach"
+      }
+    },
+    {
+      "id": 78,
+      "name": "LakeChub",
+      "display_name": "LakeChub",
+      "category": "Shiner/Minnow",
+      "min_weight_kg": 0.01,
+      "max_weight_kg": 0.1,
+      "min_length_cm": 5,
+      "max_length_cm": 15,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:lakechub",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/lakechub"
+      }
+    },
+    {
+      "id": 79,
+      "name": "FreshwaterDrum",
+      "display_name": "FreshwaterDrum",
+      "category": "Freshwater Drum",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 5,
+      "min_length_cm": 20,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:freshwaterdrum",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/freshwaterdrum"
+      }
+    },
+    {
+      "id": 81,
+      "name": "YellowPerch",
+      "display_name": "YellowPerch",
+      "category": "Perch/Pikeperch",
+      "min_weight_kg": 0.3,
+      "max_weight_kg": 3,
+      "min_length_cm": 15,
+      "max_length_cm": 40,
+      "habitat": "Freshwater",
+      "depth": "Mid-Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:yellowperch",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/yellowperch"
+      }
+    },
+    {
+      "id": 83,
+      "name": "Walleye",
+      "display_name": "Walleye",
+      "category": "Perch/Pikeperch",
+      "min_weight_kg": 0.3,
+      "max_weight_kg": 3,
+      "min_length_cm": 15,
+      "max_length_cm": 40,
+      "habitat": "Freshwater",
+      "depth": "Mid-Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:walleye",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/walleye"
+      }
+    },
+    {
+      "id": 84,
+      "name": "ShinerPerch",
+      "display_name": "ShinerPerch",
+      "category": "Perch/Pikeperch",
+      "min_weight_kg": 0.3,
+      "max_weight_kg": 3,
+      "min_length_cm": 15,
+      "max_length_cm": 40,
+      "habitat": "Freshwater",
+      "depth": "Mid-Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:shinerperch",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/shinerperch"
+      }
+    },
+    {
+      "id": 85,
+      "name": "EuropeanPerch",
+      "display_name": "EuropeanPerch",
+      "category": "Perch/Pikeperch",
+      "min_weight_kg": 0.3,
+      "max_weight_kg": 3,
+      "min_length_cm": 15,
+      "max_length_cm": 40,
+      "habitat": "Freshwater",
+      "depth": "Mid-Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:europeanperch",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/europeanperch"
+      }
+    },
+    {
+      "id": 86,
+      "name": "Sauger",
+      "display_name": "Sauger",
+      "category": "Perch/Pikeperch",
+      "min_weight_kg": 0.3,
+      "max_weight_kg": 3,
+      "min_length_cm": 15,
+      "max_length_cm": 40,
+      "habitat": "Freshwater",
+      "depth": "Mid-Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:sauger",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/sauger"
+      }
+    },
+    {
+      "id": 87,
+      "name": "Zander",
+      "display_name": "Zander",
+      "category": "Perch/Pikeperch",
+      "min_weight_kg": 0.3,
+      "max_weight_kg": 3,
+      "min_length_cm": 15,
+      "max_length_cm": 40,
+      "habitat": "Freshwater",
+      "depth": "Mid-Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:zander",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/zander"
+      }
+    },
+    {
+      "id": 88,
+      "name": "VolgaZander",
+      "display_name": "VolgaZander",
+      "category": "Perch/Pikeperch",
+      "min_weight_kg": 0.3,
+      "max_weight_kg": 3,
+      "min_length_cm": 15,
+      "max_length_cm": 40,
+      "habitat": "Freshwater",
+      "depth": "Mid-Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:volgazander",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/volgazander"
+      }
+    },
+    {
+      "id": 89,
+      "name": "EurasianRuffe",
+      "display_name": "EurasianRuffe",
+      "category": "Ruffe",
+      "min_weight_kg": 0.05,
+      "max_weight_kg": 0.2,
+      "min_length_cm": 8,
+      "max_length_cm": 20,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:eurasianruffe",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/eurasianruffe"
+      }
+    },
+    {
+      "id": 90,
+      "name": "CommonCarp",
+      "display_name": "CommonCarp",
+      "category": "Carp/Tench/Bream",
+      "min_weight_kg": 1,
+      "max_weight_kg": 15,
+      "min_length_cm": 30,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:commoncarp",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/commoncarp"
+      }
+    },
+    {
+      "id": 91,
+      "name": "WhiteSucker",
+      "display_name": "WhiteSucker",
+      "category": "Carp/Tench/Bream",
+      "min_weight_kg": 1,
+      "max_weight_kg": 15,
+      "min_length_cm": 30,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:whitesucker",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/whitesucker"
+      }
+    },
+    {
+      "id": 92,
+      "name": "SmallmouthBuffalo",
+      "display_name": "SmallmouthBuffalo",
+      "category": "Carp/Tench/Bream",
+      "min_weight_kg": 1,
+      "max_weight_kg": 15,
+      "min_length_cm": 30,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:smallmouthbuffalo",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/smallmouthbuffalo"
+      }
+    },
+    {
+      "id": 93,
+      "name": "LongnoseSucker",
+      "display_name": "LongnoseSucker",
+      "category": "Carp/Tench/Bream",
+      "min_weight_kg": 1,
+      "max_weight_kg": 15,
+      "min_length_cm": 30,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:longnosesucker",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/longnosesucker"
+      }
+    },
+    {
+      "id": 94,
+      "name": "MirrorCarp",
+      "display_name": "MirrorCarp",
+      "category": "Carp/Tench/Bream",
+      "min_weight_kg": 1,
+      "max_weight_kg": 15,
+      "min_length_cm": 30,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:mirrorcarp",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/mirrorcarp"
+      }
+    },
+    {
+      "id": 95,
+      "name": "NakedCarp",
+      "display_name": "NakedCarp",
+      "category": "Carp/Tench/Bream",
+      "min_weight_kg": 1,
+      "max_weight_kg": 15,
+      "min_length_cm": 30,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:nakedcarp",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/nakedcarp"
+      }
+    },
+    {
+      "id": 96,
+      "name": "GhostCarp",
+      "display_name": "GhostCarp",
+      "category": "Carp/Tench/Bream",
+      "min_weight_kg": 1,
+      "max_weight_kg": 15,
+      "min_length_cm": 30,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:ghostcarp",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/ghostcarp"
+      }
+    },
+    {
+      "id": 97,
+      "name": "CommonTench",
+      "display_name": "CommonTench",
+      "category": "Carp/Tench/Bream",
+      "min_weight_kg": 1,
+      "max_weight_kg": 15,
+      "min_length_cm": 30,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:commontench",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/commontench"
+      }
+    },
+    {
+      "id": 98,
+      "name": "CommonBream",
+      "display_name": "CommonBream",
+      "category": "Carp/Tench/Bream",
+      "min_weight_kg": 1,
+      "max_weight_kg": 15,
+      "min_length_cm": 30,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:commonbream",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/commonbream"
+      }
+    },
+    {
+      "id": 99,
+      "name": "SilverPrussianCarp",
+      "display_name": "SilverPrussianCarp",
+      "category": "Carp/Tench/Bream",
+      "min_weight_kg": 1,
+      "max_weight_kg": 15,
+      "min_length_cm": 30,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:silverprussiancarp",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/silverprussiancarp"
+      }
+    },
+    {
+      "id": 101,
+      "name": "RedfinPickerel",
+      "display_name": "RedfinPickerel",
+      "category": "Pickerel/Pike/Muskie",
+      "min_weight_kg": 1,
+      "max_weight_kg": 20,
+      "min_length_cm": 40,
+      "max_length_cm": 120,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:redfinpickerel",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/redfinpickerel"
+      }
+    },
+    {
+      "id": 102,
+      "name": "GrassPickerel",
+      "display_name": "GrassPickerel",
+      "category": "Pickerel/Pike/Muskie",
+      "min_weight_kg": 1,
+      "max_weight_kg": 20,
+      "min_length_cm": 40,
+      "max_length_cm": 120,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:grasspickerel",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/grasspickerel"
+      }
+    },
+    {
+      "id": 103,
+      "name": "ChainPickerel",
+      "display_name": "ChainPickerel",
+      "category": "Pickerel/Pike/Muskie",
+      "min_weight_kg": 1,
+      "max_weight_kg": 20,
+      "min_length_cm": 40,
+      "max_length_cm": 120,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:chainpickerel",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/chainpickerel"
+      }
+    },
+    {
+      "id": 104,
+      "name": "NorthernPike",
+      "display_name": "NorthernPike",
+      "category": "Pickerel/Pike/Muskie",
+      "min_weight_kg": 1,
+      "max_weight_kg": 20,
+      "min_length_cm": 40,
+      "max_length_cm": 120,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:northernpike",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/northernpike"
+      }
+    },
+    {
+      "id": 105,
+      "name": "Muskie",
+      "display_name": "Muskie",
+      "category": "Pickerel/Pike/Muskie",
+      "min_weight_kg": 1,
+      "max_weight_kg": 20,
+      "min_length_cm": 40,
+      "max_length_cm": 120,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:muskie",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/muskie"
+      }
+    },
+    {
+      "id": 106,
+      "name": "TigerMuskie",
+      "display_name": "TigerMuskie",
+      "category": "Pickerel/Pike/Muskie",
+      "min_weight_kg": 1,
+      "max_weight_kg": 20,
+      "min_length_cm": 40,
+      "max_length_cm": 120,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:tigermuskie",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/tigermuskie"
+      }
+    },
+    {
+      "id": 107,
+      "name": "ClearMuskie",
+      "display_name": "ClearMuskie",
+      "category": "Pickerel/Pike/Muskie",
+      "min_weight_kg": 1,
+      "max_weight_kg": 20,
+      "min_length_cm": 40,
+      "max_length_cm": 120,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:clearmuskie",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/clearmuskie"
+      }
+    },
+    {
+      "id": 111,
+      "name": "LargemouthBass",
+      "display_name": "LargemouthBass",
+      "category": "Bass (Freshwater)",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 10,
+      "min_length_cm": 20,
+      "max_length_cm": 60,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:largemouthbass",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/largemouthbass"
+      }
+    },
+    {
+      "id": 112,
+      "name": "SmallmouthBass",
+      "display_name": "SmallmouthBass",
+      "category": "Bass (Freshwater)",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 10,
+      "min_length_cm": 20,
+      "max_length_cm": 60,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:smallmouthbass",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/smallmouthbass"
+      }
+    },
+    {
+      "id": 113,
+      "name": "StripedBass",
+      "display_name": "StripedBass",
+      "category": "Bass (Freshwater)",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 10,
+      "min_length_cm": 20,
+      "max_length_cm": 60,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:stripedbass",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/stripedbass"
+      }
+    },
+    {
+      "id": 114,
+      "name": "SpottedBass",
+      "display_name": "SpottedBass",
+      "category": "Bass (Freshwater)",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 10,
+      "min_length_cm": 20,
+      "max_length_cm": 60,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:spottedbass",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/spottedbass"
+      }
+    },
+    {
+      "id": 115,
+      "name": "RockBass",
+      "display_name": "RockBass",
+      "category": "Bass (Freshwater)",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 10,
+      "min_length_cm": 20,
+      "max_length_cm": 60,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:rockbass",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/rockbass"
+      }
+    },
+    {
+      "id": 116,
+      "name": "ButterflyPeacockBass",
+      "display_name": "ButterflyPeacockBass",
+      "category": "Bass (Freshwater)",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 10,
+      "min_length_cm": 20,
+      "max_length_cm": 60,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:butterflypeacockbass",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/butterflypeacockbass"
+      }
+    },
+    {
+      "id": 117,
+      "name": "WhiteBass",
+      "display_name": "WhiteBass",
+      "category": "Bass (Freshwater)",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 10,
+      "min_length_cm": 20,
+      "max_length_cm": 60,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:whitebass",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/whitebass"
+      }
+    },
+    {
+      "id": 118,
+      "name": "SpeckledPeacockBass",
+      "display_name": "SpeckledPeacockBass",
+      "category": "Bass (Freshwater)",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 10,
+      "min_length_cm": 20,
+      "max_length_cm": 60,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:speckledpeacockbass",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/speckledpeacockbass"
+      }
+    },
+    {
+      "id": 119,
+      "name": "NorthernSmallmouthBassBass",
+      "display_name": "NorthernSmallmouthBassBass",
+      "category": "Bass (Freshwater)",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 10,
+      "min_length_cm": 20,
+      "max_length_cm": 60,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:northernsmallmouthbassbass",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/northernsmallmouthbassbass"
+      }
+    },
+    {
+      "id": 120,
+      "name": "ChannelCatfish",
+      "display_name": "ChannelCatfish",
+      "category": "Catfish (North America)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 30,
+      "max_length_cm": 150,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:channelcatfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/channelcatfish"
+      }
+    },
+    {
+      "id": 121,
+      "name": "BlueCatfish",
+      "display_name": "BlueCatfish",
+      "category": "Catfish (North America)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 30,
+      "max_length_cm": 150,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:bluecatfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bluecatfish"
+      }
+    },
+    {
+      "id": 122,
+      "name": "FlatheadCatfish",
+      "display_name": "FlatheadCatfish",
+      "category": "Catfish (North America)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 30,
+      "max_length_cm": 150,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:flatheadcatfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/flatheadcatfish"
+      }
+    },
+    {
+      "id": 123,
+      "name": "BrownBullheadCatfish",
+      "display_name": "BrownBullheadCatfish",
+      "category": "Catfish (North America)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 30,
+      "max_length_cm": 150,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:brownbullheadcatfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/brownbullheadcatfish"
+      }
+    },
+    {
+      "id": 124,
+      "name": "BlackBullheadCatfish",
+      "display_name": "BlackBullheadCatfish",
+      "category": "Catfish (North America)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 30,
+      "max_length_cm": 150,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:blackbullheadcatfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/blackbullheadcatfish"
+      }
+    },
+    {
+      "id": 125,
+      "name": "WhiteCatfish",
+      "display_name": "WhiteCatfish",
+      "category": "Catfish (North America)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 30,
+      "max_length_cm": 150,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:whitecatfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/whitecatfish"
+      }
+    },
+    {
+      "id": 126,
+      "name": "WelsCatfish",
+      "display_name": "WelsCatfish",
+      "category": "Catfish (North America)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 30,
+      "max_length_cm": 150,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:welscatfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/welscatfish"
+      }
+    },
+    {
+      "id": 501,
+      "name": "RainbowTrout",
+      "display_name": "RainbowTrout",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:rainbowtrout",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/rainbowtrout"
+      }
+    },
+    {
+      "id": 502,
+      "name": "SteelheadTrout",
+      "display_name": "SteelheadTrout",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:steelheadtrout",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/steelheadtrout"
+      }
+    },
+    {
+      "id": 503,
+      "name": "CutthroatTrout",
+      "display_name": "CutthroatTrout",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:cutthroattrout",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/cutthroattrout"
+      }
+    },
+    {
+      "id": 504,
+      "name": "BrookTrout",
+      "display_name": "BrookTrout",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:brooktrout",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/brooktrout"
+      }
+    },
+    {
+      "id": 505,
+      "name": "BrownTrout",
+      "display_name": "BrownTrout",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:browntrout",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/browntrout"
+      }
+    },
+    {
+      "id": 506,
+      "name": "LakeTrout",
+      "display_name": "LakeTrout",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:laketrout",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/laketrout"
+      }
+    },
+    {
+      "id": 507,
+      "name": "FremontRiverRainbowTrout",
+      "display_name": "FremontRiverRainbowTrout",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:fremontriverrainbowtrout",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/fremontriverrainbowtrout"
+      }
+    },
+    {
+      "id": 508,
+      "name": "ColoradoGoldenTrout",
+      "display_name": "ColoradoGoldenTrout",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:coloradogoldentrout",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/coloradogoldentrout"
+      }
+    },
+    {
+      "id": 509,
+      "name": "DollyVarden",
+      "display_name": "DollyVarden",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:dollyvarden",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/dollyvarden"
+      }
+    },
+    {
+      "id": 510,
+      "name": "ArcticGrayling",
+      "display_name": "ArcticGrayling",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:arcticgrayling",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/arcticgrayling"
+      }
+    },
+    {
+      "id": 511,
+      "name": "Salwelinus",
+      "display_name": "Salwelinus",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:salwelinus",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/salwelinus"
+      }
+    },
+    {
+      "id": 512,
+      "name": "Splake",
+      "display_name": "Splake",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:splake",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/splake"
+      }
+    },
+    {
+      "id": 513,
+      "name": "OregonRedbandTrout",
+      "display_name": "OregonRedbandTrout",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:oregonredbandtrout",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/oregonredbandtrout"
+      }
+    },
+    {
+      "id": 514,
+      "name": "TigerTrout",
+      "display_name": "TigerTrout",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:tigertrout",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/tigertrout"
+      }
+    },
+    {
+      "id": 515,
+      "name": "EuropeanGrayling",
+      "display_name": "EuropeanGrayling",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:europeangrayling",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/europeangrayling"
+      }
+    },
+    {
+      "id": 516,
+      "name": "MarbleTrout",
+      "display_name": "MarbleTrout",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:marbletrout",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/marbletrout"
+      }
+    },
+    {
+      "id": 517,
+      "name": "CreekBrownTrout",
+      "display_name": "CreekBrownTrout",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:creekbrowntrout",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/creekbrowntrout"
+      }
+    },
+    {
+      "id": 518,
+      "name": "Lenok",
+      "display_name": "Lenok",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:lenok",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/lenok"
+      }
+    },
+    {
+      "id": 519,
+      "name": "EuropeanBrownTrout",
+      "display_name": "EuropeanBrownTrout",
+      "category": "Trout/Char/Salmonids",
+      "min_weight_kg": 0.2,
+      "max_weight_kg": 10,
+      "min_length_cm": 15,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid-Top",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:europeanbrowntrout",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/europeanbrowntrout"
+      }
+    },
+    {
+      "id": 590,
+      "name": "FurryTrout",
+      "display_name": "FurryTrout",
+      "category": "Special/Furry Trout",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 5,
+      "min_length_cm": 20,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:furrytrout",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/furrytrout"
+      }
+    },
+    {
+      "id": 600,
+      "name": "WhiteSturgeon",
+      "display_name": "WhiteSturgeon",
+      "category": "Sturgeon",
+      "min_weight_kg": 5,
+      "max_weight_kg": 200,
+      "min_length_cm": 60,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:whitesturgeon",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/whitesturgeon"
+      }
+    },
+    {
+      "id": 601,
+      "name": "Sterlet",
+      "display_name": "Sterlet",
+      "category": "Sturgeon",
+      "min_weight_kg": 5,
+      "max_weight_kg": 200,
+      "min_length_cm": 60,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:sterlet",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/sterlet"
+      }
+    },
+    {
+      "id": 602,
+      "name": "Beluga",
+      "display_name": "Beluga",
+      "category": "Sturgeon",
+      "min_weight_kg": 5,
+      "max_weight_kg": 200,
+      "min_length_cm": 60,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:beluga",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/beluga"
+      }
+    },
+    {
+      "id": 603,
+      "name": "LakeSturgeon",
+      "display_name": "LakeSturgeon",
+      "category": "Sturgeon",
+      "min_weight_kg": 5,
+      "max_weight_kg": 200,
+      "min_length_cm": 60,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:lakesturgeon",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/lakesturgeon"
+      }
+    },
+    {
+      "id": 701,
+      "name": "ChinookSalmon",
+      "display_name": "ChinookSalmon",
+      "category": "Salmon/Whitefish/Taimen",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 40,
+      "max_length_cm": 150,
+      "habitat": "Freshwater/Anadromous",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:chinooksalmon",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/chinooksalmon"
+      }
+    },
+    {
+      "id": 702,
+      "name": "AtlanticSalmon",
+      "display_name": "AtlanticSalmon",
+      "category": "Salmon/Whitefish/Taimen",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 40,
+      "max_length_cm": 150,
+      "habitat": "Freshwater/Anadromous",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:atlanticsalmon",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/atlanticsalmon"
+      }
+    },
+    {
+      "id": 703,
+      "name": "SockeyeSalmon",
+      "display_name": "SockeyeSalmon",
+      "category": "Salmon/Whitefish/Taimen",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 40,
+      "max_length_cm": 150,
+      "habitat": "Freshwater/Anadromous",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:sockeyesalmon",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/sockeyesalmon"
+      }
+    },
+    {
+      "id": 704,
+      "name": "PinkSalmon",
+      "display_name": "PinkSalmon",
+      "category": "Salmon/Whitefish/Taimen",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 40,
+      "max_length_cm": 150,
+      "habitat": "Freshwater/Anadromous",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:pinksalmon",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/pinksalmon"
+      }
+    },
+    {
+      "id": 705,
+      "name": "CohoSalmon",
+      "display_name": "CohoSalmon",
+      "category": "Salmon/Whitefish/Taimen",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 40,
+      "max_length_cm": 150,
+      "habitat": "Freshwater/Anadromous",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:cohosalmon",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/cohosalmon"
+      }
+    },
+    {
+      "id": 706,
+      "name": "ChumSalmon",
+      "display_name": "ChumSalmon",
+      "category": "Salmon/Whitefish/Taimen",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 40,
+      "max_length_cm": 150,
+      "habitat": "Freshwater/Anadromous",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:chumsalmon",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/chumsalmon"
+      }
+    },
+    {
+      "id": 707,
+      "name": "LakeWhitefish",
+      "display_name": "LakeWhitefish",
+      "category": "Salmon/Whitefish/Taimen",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 40,
+      "max_length_cm": 150,
+      "habitat": "Freshwater/Anadromous",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:lakewhitefish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/lakewhitefish"
+      }
+    },
+    {
+      "id": 708,
+      "name": "CommonWhitefish",
+      "display_name": "CommonWhitefish",
+      "category": "Salmon/Whitefish/Taimen",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 40,
+      "max_length_cm": 150,
+      "habitat": "Freshwater/Anadromous",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:commonwhitefish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/commonwhitefish"
+      }
+    },
+    {
+      "id": 709,
+      "name": "SiberianTaimen",
+      "display_name": "SiberianTaimen",
+      "category": "Salmon/Whitefish/Taimen",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 40,
+      "max_length_cm": 150,
+      "habitat": "Freshwater/Anadromous",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:siberiantaimen",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/siberiantaimen"
+      }
+    },
+    {
+      "id": 711,
+      "name": "Vendace",
+      "display_name": "Vendace",
+      "category": "Salmon/Whitefish/Taimen",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 40,
+      "max_length_cm": 150,
+      "habitat": "Freshwater/Anadromous",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:vendace",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/vendace"
+      }
+    },
+    {
+      "id": 801,
+      "name": "AlligatorGar",
+      "display_name": "AlligatorGar",
+      "category": "Gar",
+      "min_weight_kg": 2,
+      "max_weight_kg": 100,
+      "min_length_cm": 60,
+      "max_length_cm": 250,
+      "habitat": "Freshwater",
+      "depth": "Top-Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:alligatorgar",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/alligatorgar"
+      }
+    },
+    {
+      "id": 802,
+      "name": "FloridaGar",
+      "display_name": "FloridaGar",
+      "category": "Gar",
+      "min_weight_kg": 2,
+      "max_weight_kg": 100,
+      "min_length_cm": 60,
+      "max_length_cm": 250,
+      "habitat": "Freshwater",
+      "depth": "Top-Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:floridagar",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/floridagar"
+      }
+    },
+    {
+      "id": 803,
+      "name": "LongnoseGar",
+      "display_name": "LongnoseGar",
+      "category": "Gar",
+      "min_weight_kg": 2,
+      "max_weight_kg": 100,
+      "min_length_cm": 60,
+      "max_length_cm": 250,
+      "habitat": "Freshwater",
+      "depth": "Top-Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:longnosegar",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/longnosegar"
+      }
+    },
+    {
+      "id": 804,
+      "name": "BlackGar",
+      "display_name": "BlackGar",
+      "category": "Gar",
+      "min_weight_kg": 2,
+      "max_weight_kg": 100,
+      "min_length_cm": 60,
+      "max_length_cm": 250,
+      "habitat": "Freshwater",
+      "depth": "Top-Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:blackgar",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/blackgar"
+      }
+    },
+    {
+      "id": 805,
+      "name": "MonsterGar",
+      "display_name": "MonsterGar",
+      "category": "Gar",
+      "min_weight_kg": 2,
+      "max_weight_kg": 100,
+      "min_length_cm": 60,
+      "max_length_cm": 250,
+      "habitat": "Freshwater",
+      "depth": "Top-Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:monstergar",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/monstergar"
+      }
+    },
+    {
+      "id": 806,
+      "name": "AlbinoGar",
+      "display_name": "AlbinoGar",
+      "category": "Gar",
+      "min_weight_kg": 2,
+      "max_weight_kg": 100,
+      "min_length_cm": 60,
+      "max_length_cm": 250,
+      "habitat": "Freshwater",
+      "depth": "Top-Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:albinogar",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/albinogar"
+      }
+    },
+    {
+      "id": 808,
+      "name": "SpottedGar",
+      "display_name": "SpottedGar",
+      "category": "Gar",
+      "min_weight_kg": 2,
+      "max_weight_kg": 100,
+      "min_length_cm": 60,
+      "max_length_cm": 250,
+      "habitat": "Freshwater",
+      "depth": "Top-Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:spottedgar",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/spottedgar"
+      }
+    },
+    {
+      "id": 900,
+      "name": "Tarpon",
+      "display_name": "Tarpon",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:tarpon",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/tarpon"
+      }
+    },
+    {
+      "id": 901,
+      "name": "Bowfin",
+      "display_name": "Bowfin",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:bowfin",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bowfin"
+      }
+    },
+    {
+      "id": 902,
+      "name": "Burbot",
+      "display_name": "Burbot",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:burbot",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/burbot"
+      }
+    },
+    {
+      "id": 903,
+      "name": "AmericanShad",
+      "display_name": "AmericanShad",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:americanshad",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/americanshad"
+      }
+    },
+    {
+      "id": 904,
+      "name": "AlaskaBlackfish",
+      "display_name": "AlaskaBlackfish",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:alaskablackfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/alaskablackfish"
+      }
+    },
+    {
+      "id": 905,
+      "name": "Paddlefish",
+      "display_name": "Paddlefish",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:paddlefish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/paddlefish"
+      }
+    },
+    {
+      "id": 906,
+      "name": "RedDrum",
+      "display_name": "RedDrum",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:reddrum",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/reddrum"
+      }
+    },
+    {
+      "id": 907,
+      "name": "CommonSnook",
+      "display_name": "CommonSnook",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:commonsnook",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/commonsnook"
+      }
+    },
+    {
+      "id": 908,
+      "name": "GafftopsailCatfish",
+      "display_name": "GafftopsailCatfish",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:gafftopsailcatfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/gafftopsailcatfish"
+      }
+    },
+    {
+      "id": 909,
+      "name": "EuropeanChub",
+      "display_name": "EuropeanChub",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:europeanchub",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/europeanchub"
+      }
+    },
+    {
+      "id": 910,
+      "name": "GoldenTench",
+      "display_name": "GoldenTench",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:goldentench",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/goldentench"
+      }
+    },
+    {
+      "id": 911,
+      "name": "CommonRoach",
+      "display_name": "CommonRoach",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:commonroach",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/commonroach"
+      }
+    },
+    {
+      "id": 912,
+      "name": "Asp",
+      "display_name": "Asp",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:asp",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/asp"
+      }
+    },
+    {
+      "id": 913,
+      "name": "CrucianCarp",
+      "display_name": "CrucianCarp",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:cruciancarp",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/cruciancarp"
+      }
+    },
+    {
+      "id": 914,
+      "name": "CommonRudd",
+      "display_name": "CommonRudd",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:commonrudd",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/commonrudd"
+      }
+    },
+    {
+      "id": 915,
+      "name": "SilverBream",
+      "display_name": "SilverBream",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:silverbream",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/silverbream"
+      }
+    },
+    {
+      "id": 916,
+      "name": "BlueBream",
+      "display_name": "BlueBream",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:bluebream",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bluebream"
+      }
+    },
+    {
+      "id": 917,
+      "name": "Gudgeon",
+      "display_name": "Gudgeon",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:gudgeon",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/gudgeon"
+      }
+    },
+    {
+      "id": 918,
+      "name": "Ide",
+      "display_name": "Ide",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:ide",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/ide"
+      }
+    },
+    {
+      "id": 919,
+      "name": "CaspianRoach",
+      "display_name": "CaspianRoach",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:caspianroach",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/caspianroach"
+      }
+    },
+    {
+      "id": 920,
+      "name": "GrassCarp",
+      "display_name": "GrassCarp",
+      "category": "Misc Freshwater (Tarpon, Bowfin, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 30,
+      "min_length_cm": 30,
+      "max_length_cm": 100,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:grasscarp",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/grasscarp"
+      }
+    },
+    {
+      "id": 921,
+      "name": "CommonBleak",
+      "display_name": "CommonBleak",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:commonbleak",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/commonbleak"
+      }
+    },
+    {
+      "id": 922,
+      "name": "WhiteeyeBream",
+      "display_name": "WhiteeyeBream",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:whiteeyebream",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/whiteeyebream"
+      }
+    },
+    {
+      "id": 923,
+      "name": "EuropeanBitterling",
+      "display_name": "EuropeanBitterling",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:europeanbitterling",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/europeanbitterling"
+      }
+    },
+    {
+      "id": 924,
+      "name": "CommonDace",
+      "display_name": "CommonDace",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:commondace",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/commondace"
+      }
+    },
+    {
+      "id": 925,
+      "name": "Ziege",
+      "display_name": "Ziege",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:ziege",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/ziege"
+      }
+    },
+    {
+      "id": 926,
+      "name": "CommonBarbel",
+      "display_name": "CommonBarbel",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:commonbarbel",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/commonbarbel"
+      }
+    },
+    {
+      "id": 927,
+      "name": "CommonNase",
+      "display_name": "CommonNase",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:commonnase",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/commonnase"
+      }
+    },
+    {
+      "id": 928,
+      "name": "MonkeyGoby",
+      "display_name": "MonkeyGoby",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:monkeygoby",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/monkeygoby"
+      }
+    },
+    {
+      "id": 929,
+      "name": "RoundGoby",
+      "display_name": "RoundGoby",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:roundgoby",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/roundgoby"
+      }
+    },
+    {
+      "id": 930,
+      "name": "EuropeanEel",
+      "display_name": "EuropeanEel",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:europeaneel",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/europeaneel"
+      }
+    },
+    {
+      "id": 931,
+      "name": "EuropeanWeatherfish",
+      "display_name": "EuropeanWeatherfish",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:europeanweatherfish",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/europeanweatherfish"
+      }
+    },
+    {
+      "id": 932,
+      "name": "ChineseSleeper",
+      "display_name": "ChineseSleeper",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:chinesesleeper",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/chinesesleeper"
+      }
+    },
+    {
+      "id": 933,
+      "name": "ThicklipGreyMullet",
+      "display_name": "ThicklipGreyMullet",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:thicklipgreymullet",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/thicklipgreymullet"
+      }
+    },
+    {
+      "id": 934,
+      "name": "EuropeanFlounder",
+      "display_name": "EuropeanFlounder",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:europeanflounder",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/europeanflounder"
+      }
+    },
+    {
+      "id": 935,
+      "name": "BigheadCarp",
+      "display_name": "BigheadCarp",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:bigheadcarp",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bigheadcarp"
+      }
+    },
+    {
+      "id": 936,
+      "name": "SilverCarp",
+      "display_name": "SilverCarp",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:silvercarp",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/silvercarp"
+      }
+    },
+    {
+      "id": 937,
+      "name": "HybridF1Carp",
+      "display_name": "HybridF1Carp",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:hybridf1carp",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/hybridf1carp"
+      }
+    },
+    {
+      "id": 938,
+      "name": "Permit",
+      "display_name": "Permit",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:permit",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/permit"
+      }
+    },
+    {
+      "id": 939,
+      "name": "Bonefish",
+      "display_name": "Bonefish",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:bonefish",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bonefish"
+      }
+    },
+    {
+      "id": 940,
+      "name": "SouthernFlounder",
+      "display_name": "SouthernFlounder",
+      "category": "European Cyprinids",
+      "min_weight_kg": 0.1,
+      "max_weight_kg": 5,
+      "min_length_cm": 10,
+      "max_length_cm": 50,
+      "habitat": "Freshwater",
+      "depth": "Bottom-Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:southernflounder",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/southernflounder"
+      }
+    },
+    {
+      "id": 1530,
+      "name": "BlackDrum",
+      "display_name": "BlackDrum",
+      "category": "Misc Freshwater (Buffalo, Shad, Bass)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 20,
+      "min_length_cm": 30,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:blackdrum",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/blackdrum"
+      }
+    },
+    {
+      "id": 1540,
+      "name": "GizzardShad",
+      "display_name": "GizzardShad",
+      "category": "Misc Freshwater (Buffalo, Shad, Bass)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 20,
+      "min_length_cm": 30,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:gizzardshad",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/gizzardshad"
+      }
+    },
+    {
+      "id": 1580,
+      "name": "BigmouthBuffalo",
+      "display_name": "BigmouthBuffalo",
+      "category": "Misc Freshwater (Buffalo, Shad, Bass)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 20,
+      "min_length_cm": 30,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:bigmouthbuffalo",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bigmouthbuffalo"
+      }
+    },
+    {
+      "id": 1590,
+      "name": "ShoalBass",
+      "display_name": "ShoalBass",
+      "category": "Misc Freshwater (Buffalo, Shad, Bass)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 20,
+      "min_length_cm": 30,
+      "max_length_cm": 80,
+      "habitat": "Freshwater",
+      "depth": "Mid",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:shoalbass",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/shoalbass"
+      }
+    },
+    {
+      "id": 1300,
+      "name": "RedtailCatfish",
+      "display_name": "RedtailCatfish",
+      "category": "South American Catfish",
+      "min_weight_kg": 5,
+      "max_weight_kg": 200,
+      "min_length_cm": 60,
+      "max_length_cm": 250,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:redtailcatfish",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/redtailcatfish"
+      }
+    },
+    {
+      "id": 1310,
+      "name": "GildedCatfish",
+      "display_name": "GildedCatfish",
+      "category": "South American Catfish",
+      "min_weight_kg": 5,
+      "max_weight_kg": 200,
+      "min_length_cm": 60,
+      "max_length_cm": 250,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:gildedcatfish",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/gildedcatfish"
+      }
+    },
+    {
+      "id": 1320,
+      "name": "Piraiba",
+      "display_name": "Piraiba",
+      "category": "South American Catfish",
+      "min_weight_kg": 5,
+      "max_weight_kg": 200,
+      "min_length_cm": 60,
+      "max_length_cm": 250,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:piraiba",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/piraiba"
+      }
+    },
+    {
+      "id": 1330,
+      "name": "SorubimCatfish",
+      "display_name": "SorubimCatfish",
+      "category": "South American Catfish",
+      "min_weight_kg": 5,
+      "max_weight_kg": 200,
+      "min_length_cm": 60,
+      "max_length_cm": 250,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:sorubimcatfish",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/sorubimcatfish"
+      }
+    },
+    {
+      "id": 1340,
+      "name": "FlatwhiskeredCatfish",
+      "display_name": "FlatwhiskeredCatfish",
+      "category": "South American Catfish",
+      "min_weight_kg": 5,
+      "max_weight_kg": 200,
+      "min_length_cm": 60,
+      "max_length_cm": 250,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:flatwhiskeredcatfish",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/flatwhiskeredcatfish"
+      }
+    },
+    {
+      "id": 1350,
+      "name": "Jacunda",
+      "display_name": "Jacunda",
+      "category": "South American Catfish",
+      "min_weight_kg": 5,
+      "max_weight_kg": 200,
+      "min_length_cm": 60,
+      "max_length_cm": 250,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:jacunda",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/jacunda"
+      }
+    },
+    {
+      "id": 1370,
+      "name": "BandedAracu",
+      "display_name": "BandedAracu",
+      "category": "South American Catfish",
+      "min_weight_kg": 5,
+      "max_weight_kg": 200,
+      "min_length_cm": 60,
+      "max_length_cm": 250,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:bandedaracu",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bandedaracu"
+      }
+    },
+    {
+      "id": 1400,
+      "name": "SpottedAracu",
+      "display_name": "SpottedAracu",
+      "category": "South American Predators",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 30,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:spottedaracu",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/spottedaracu"
+      }
+    },
+    {
+      "id": 1420,
+      "name": "RedTailBarracuda",
+      "display_name": "RedTailBarracuda",
+      "category": "South American Predators",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 30,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:redtailbarracuda",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/redtailbarracuda"
+      }
+    },
+    {
+      "id": 1440,
+      "name": "RipsawCatfish",
+      "display_name": "RipsawCatfish",
+      "category": "South American Predators",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 30,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:ripsawcatfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/ripsawcatfish"
+      }
+    },
+    {
+      "id": 1480,
+      "name": "RedBelliedPiranha",
+      "display_name": "RedBelliedPiranha",
+      "category": "South American Predators",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 30,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:redbelliedpiranha",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/redbelliedpiranha"
+      }
+    },
+    {
+      "id": 1500,
+      "name": "RedeyePiranha",
+      "display_name": "RedeyePiranha",
+      "category": "South American Predators",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 30,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:redeyepiranha",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/redeyepiranha"
+      }
+    },
+    {
+      "id": 1520,
+      "name": "Tambaqui",
+      "display_name": "Tambaqui",
+      "category": "South American Predators",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 30,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:tambaqui",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/tambaqui"
+      }
+    },
+    {
+      "id": 1650,
+      "name": "Payara",
+      "display_name": "Payara",
+      "category": "South American Exotics (Payara, Arapaima, etc.)",
+      "min_weight_kg": 10,
+      "max_weight_kg": 300,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:payara",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/payara"
+      }
+    },
+    {
+      "id": 1660,
+      "name": "Biara",
+      "display_name": "Biara",
+      "category": "South American Exotics (Payara, Arapaima, etc.)",
+      "min_weight_kg": 10,
+      "max_weight_kg": 300,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:biara",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/biara"
+      }
+    },
+    {
+      "id": 1680,
+      "name": "SilverArowana",
+      "display_name": "SilverArowana",
+      "category": "South American Exotics (Payara, Arapaima, etc.)",
+      "min_weight_kg": 10,
+      "max_weight_kg": 300,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:silverarowana",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/silverarowana"
+      }
+    },
+    {
+      "id": 1690,
+      "name": "Arapaima",
+      "display_name": "Arapaima",
+      "category": "South American Exotics (Payara, Arapaima, etc.)",
+      "min_weight_kg": 10,
+      "max_weight_kg": 300,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:arapaima",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/arapaima"
+      }
+    },
+    {
+      "id": 1710,
+      "name": "Brycon",
+      "display_name": "Brycon",
+      "category": "South American Exotics (Payara, Arapaima, etc.)",
+      "min_weight_kg": 10,
+      "max_weight_kg": 300,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:brycon",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/brycon"
+      }
+    },
+    {
+      "id": 1720,
+      "name": "FlagTailedProchilodus",
+      "display_name": "FlagTailedProchilodus",
+      "category": "South American Exotics (Payara, Arapaima, etc.)",
+      "min_weight_kg": 10,
+      "max_weight_kg": 300,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:flagtailedprochilodus",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/flagtailedprochilodus"
+      }
+    },
+    {
+      "id": 1730,
+      "name": "SilverCroaker",
+      "display_name": "SilverCroaker",
+      "category": "South American Exotics (Payara, Arapaima, etc.)",
+      "min_weight_kg": 10,
+      "max_weight_kg": 300,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:silvercroaker",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/silvercroaker"
+      }
+    },
+    {
+      "id": 1750,
+      "name": "Bicuda",
+      "display_name": "Bicuda",
+      "category": "South American Exotics (Payara, Arapaima, etc.)",
+      "min_weight_kg": 10,
+      "max_weight_kg": 300,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:bicuda",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bicuda"
+      }
+    },
+    {
+      "id": 1760,
+      "name": "Trahira",
+      "display_name": "Trahira",
+      "category": "South American Exotics (Payara, Arapaima, etc.)",
+      "min_weight_kg": 10,
+      "max_weight_kg": 300,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:trahira",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/trahira"
+      }
+    },
+    {
+      "id": 1770,
+      "name": "BullShark",
+      "display_name": "BullShark",
+      "category": "South American Exotics (Payara, Arapaima, etc.)",
+      "min_weight_kg": 10,
+      "max_weight_kg": 300,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:bullshark",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bullshark"
+      }
+    },
+    {
+      "id": 1780,
+      "name": "ElectricEel",
+      "display_name": "ElectricEel",
+      "category": "South American Exotics (Payara, Arapaima, etc.)",
+      "min_weight_kg": 10,
+      "max_weight_kg": 300,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:electriceel",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/electriceel"
+      }
+    },
+    {
+      "id": 1790,
+      "name": "RedPeacockBass",
+      "display_name": "RedPeacockBass",
+      "category": "South American Exotics (Payara, Arapaima, etc.)",
+      "min_weight_kg": 10,
+      "max_weight_kg": 300,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:redpeacockbass",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/redpeacockbass"
+      }
+    },
+    {
+      "id": 1800,
+      "name": "OrinocoPeacockBass",
+      "display_name": "OrinocoPeacockBass",
+      "category": "South American Exotics (Payara, Arapaima, etc.)",
+      "min_weight_kg": 10,
+      "max_weight_kg": 300,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:orinocopeacockbass",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/orinocopeacockbass"
+      }
+    },
+    {
+      "id": 1810,
+      "name": "Apapa",
+      "display_name": "Apapa",
+      "category": "South American Exotics (Payara, Arapaima, etc.)",
+      "min_weight_kg": 10,
+      "max_weight_kg": 300,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater (Amazon)",
+      "depth": "Mid-Top",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:apapa",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/apapa"
+      }
+    },
+    {
+      "id": 1940,
+      "name": "GiraffeCatfish",
+      "display_name": "GiraffeCatfish",
+      "category": "African Catfish",
+      "min_weight_kg": 5,
+      "max_weight_kg": 100,
+      "min_length_cm": 50,
+      "max_length_cm": 200,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:giraffecatfish",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/giraffecatfish"
+      }
+    },
+    {
+      "id": 1950,
+      "name": "AfricanBigEyeCatfish",
+      "display_name": "AfricanBigEyeCatfish",
+      "category": "African Catfish",
+      "min_weight_kg": 5,
+      "max_weight_kg": 100,
+      "min_length_cm": 50,
+      "max_length_cm": 200,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:africanbigeyecatfish",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/africanbigeyecatfish"
+      }
+    },
+    {
+      "id": 1960,
+      "name": "Vundu",
+      "display_name": "Vundu",
+      "category": "African Catfish",
+      "min_weight_kg": 5,
+      "max_weight_kg": 100,
+      "min_length_cm": 50,
+      "max_length_cm": 200,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:vundu",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/vundu"
+      }
+    },
+    {
+      "id": 1970,
+      "name": "KambaCatfish",
+      "display_name": "KambaCatfish",
+      "category": "African Catfish",
+      "min_weight_kg": 5,
+      "max_weight_kg": 100,
+      "min_length_cm": 50,
+      "max_length_cm": 200,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:kambacatfish",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/kambacatfish"
+      }
+    },
+    {
+      "id": 1990,
+      "name": "AfricanSharptoothCatfish",
+      "display_name": "AfricanSharptoothCatfish",
+      "category": "African Catfish",
+      "min_weight_kg": 5,
+      "max_weight_kg": 100,
+      "min_length_cm": 50,
+      "max_length_cm": 200,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Bottom",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:africansharptoothcatfish",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/africansharptoothcatfish"
+      }
+    },
+    {
+      "id": 2020,
+      "name": "NilePerch",
+      "display_name": "NilePerch",
+      "category": "African Fish (Tigerfish, Tilapia, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:nileperch",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/nileperch"
+      }
+    },
+    {
+      "id": 2030,
+      "name": "GoliathTigerfish",
+      "display_name": "GoliathTigerfish",
+      "category": "African Fish (Tigerfish, Tilapia, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:goliathtigerfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/goliathtigerfish"
+      }
+    },
+    {
+      "id": 2040,
+      "name": "AfricanTigerfish",
+      "display_name": "AfricanTigerfish",
+      "category": "African Fish (Tigerfish, Tilapia, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:africantigerfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/africantigerfish"
+      }
+    },
+    {
+      "id": 2050,
+      "name": "CornishJack",
+      "display_name": "CornishJack",
+      "category": "African Fish (Tigerfish, Tilapia, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:cornishjack",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/cornishjack"
+      }
+    },
+    {
+      "id": 2060,
+      "name": "AfricanPike",
+      "display_name": "AfricanPike",
+      "category": "African Fish (Tigerfish, Tilapia, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:africanpike",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/africanpike"
+      }
+    },
+    {
+      "id": 2070,
+      "name": "CongoYellowfish",
+      "display_name": "CongoYellowfish",
+      "category": "African Fish (Tigerfish, Tilapia, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:congoyellowfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/congoyellowfish"
+      }
+    },
+    {
+      "id": 2090,
+      "name": "RednoseLabeo",
+      "display_name": "RednoseLabeo",
+      "category": "African Fish (Tigerfish, Tilapia, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:rednoselabeo",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/rednoselabeo"
+      }
+    },
+    {
+      "id": 2100,
+      "name": "PurpleLabeo",
+      "display_name": "PurpleLabeo",
+      "category": "African Fish (Tigerfish, Tilapia, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:purplelabeo",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/purplelabeo"
+      }
+    },
+    {
+      "id": 2110,
+      "name": "ElephantFish",
+      "display_name": "ElephantFish",
+      "category": "African Fish (Tigerfish, Tilapia, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:elephantfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/elephantfish"
+      }
+    },
+    {
+      "id": 2120,
+      "name": "BulldogFish",
+      "display_name": "BulldogFish",
+      "category": "African Fish (Tigerfish, Tilapia, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:bulldogfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bulldogfish"
+      }
+    },
+    {
+      "id": 2130,
+      "name": "BandedTilapia",
+      "display_name": "BandedTilapia",
+      "category": "African Fish (Tigerfish, Tilapia, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:bandedtilapia",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bandedtilapia"
+      }
+    },
+    {
+      "id": 2140,
+      "name": "NileTilapia",
+      "display_name": "NileTilapia",
+      "category": "African Fish (Tigerfish, Tilapia, etc.)",
+      "min_weight_kg": 1,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 150,
+      "habitat": "Freshwater (Africa)",
+      "depth": "Mid",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:niletilapia",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/niletilapia"
+      }
+    },
+    {
+      "id": 2210,
+      "name": "AmurBitterling",
+      "display_name": "AmurBitterling",
+      "category": "Misc Small Fish",
+      "min_weight_kg": 0.01,
+      "max_weight_kg": 0.1,
+      "min_length_cm": 3,
+      "max_length_cm": 10,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:amurbitterling",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/amurbitterling"
+      }
+    },
+    {
+      "id": 2220,
+      "name": "EurasianMinnow",
+      "display_name": "EurasianMinnow",
+      "category": "Misc Small Fish",
+      "min_weight_kg": 0.01,
+      "max_weight_kg": 0.1,
+      "min_length_cm": 3,
+      "max_length_cm": 10,
+      "habitat": "Freshwater",
+      "depth": "Shallow",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:eurasianminnow",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/eurasianminnow"
+      }
+    },
+    {
+      "id": 2240,
+      "name": "HumpbackWhitefish",
+      "display_name": "HumpbackWhitefish",
+      "category": "Whitefish/Omul",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 3,
+      "min_length_cm": 20,
+      "max_length_cm": 50,
+      "habitat": "Freshwater (Cold)",
+      "depth": "Mid-Bottom",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:humpbackwhitefish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/humpbackwhitefish"
+      }
+    },
+    {
+      "id": 2250,
+      "name": "BaikalOmul",
+      "display_name": "BaikalOmul",
+      "category": "Whitefish/Omul",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 3,
+      "min_length_cm": 20,
+      "max_length_cm": 50,
+      "habitat": "Freshwater (Cold)",
+      "depth": "Mid-Bottom",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:baikalomul",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/baikalomul"
+      }
+    },
+    {
+      "id": 2284,
+      "name": "YellowfinTuna",
+      "display_name": "YellowfinTuna",
+      "category": "Tuna",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:yellowfintuna",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/yellowfintuna"
+      }
+    },
+    {
+      "id": 2285,
+      "name": "BigeyeTuna",
+      "display_name": "BigeyeTuna",
+      "category": "Tuna",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:bigeyetuna",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bigeyetuna"
+      }
+    },
+    {
+      "id": 2286,
+      "name": "PacificBluefinTuna",
+      "display_name": "PacificBluefinTuna",
+      "category": "Tuna",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:pacificbluefintuna",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/pacificbluefintuna"
+      }
+    },
+    {
+      "id": 2287,
+      "name": "LongfinTuna",
+      "display_name": "LongfinTuna",
+      "category": "Tuna",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:longfintuna",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/longfintuna"
+      }
+    },
+    {
+      "id": 2288,
+      "name": "SkipjackTuna",
+      "display_name": "SkipjackTuna",
+      "category": "Tuna",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:skipjacktuna",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/skipjacktuna"
+      }
+    },
+    {
+      "id": 2289,
+      "name": "DogtoothTuna",
+      "display_name": "DogtoothTuna",
+      "category": "Tuna",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Rare",
+      "minecraft": {
+        "entity_id": "fishingplanet:dogtoothtuna",
+        "spawn_weight": 2,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/dogtoothtuna"
+      }
+    },
+    {
+      "id": 2290,
+      "name": "GreaterAmberjack",
+      "display_name": "GreaterAmberjack",
+      "category": "Jacks/Mackerel/Billfish/Reef Fish",
+      "min_weight_kg": 2,
+      "max_weight_kg": 200,
+      "min_length_cm": 40,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic/Reef",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:greateramberjack",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/greateramberjack"
+      }
+    },
+    {
+      "id": 2291,
+      "name": "JapaneseAmberjack",
+      "display_name": "JapaneseAmberjack",
+      "category": "Jacks/Mackerel/Billfish/Reef Fish",
+      "min_weight_kg": 2,
+      "max_weight_kg": 200,
+      "min_length_cm": 40,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic/Reef",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:japaneseamberjack",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/japaneseamberjack"
+      }
+    },
+    {
+      "id": 2292,
+      "name": "GiantTrevally",
+      "display_name": "GiantTrevally",
+      "category": "Jacks/Mackerel/Billfish/Reef Fish",
+      "min_weight_kg": 2,
+      "max_weight_kg": 200,
+      "min_length_cm": 40,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic/Reef",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:gianttrevally",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/gianttrevally"
+      }
+    },
+    {
+      "id": 2293,
+      "name": "NarrowBarredSpanishMackerel",
+      "display_name": "NarrowBarredSpanishMackerel",
+      "category": "Jacks/Mackerel/Billfish/Reef Fish",
+      "min_weight_kg": 2,
+      "max_weight_kg": 200,
+      "min_length_cm": 40,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic/Reef",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:narrowbarredspanishmackerel",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/narrowbarredspanishmackerel"
+      }
+    },
+    {
+      "id": 2294,
+      "name": "StripedBonito",
+      "display_name": "StripedBonito",
+      "category": "Jacks/Mackerel/Billfish/Reef Fish",
+      "min_weight_kg": 2,
+      "max_weight_kg": 200,
+      "min_length_cm": 40,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic/Reef",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:stripedbonito",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/stripedbonito"
+      }
+    },
+    {
+      "id": 2295,
+      "name": "StripedMarlin",
+      "display_name": "StripedMarlin",
+      "category": "Jacks/Mackerel/Billfish/Reef Fish",
+      "min_weight_kg": 2,
+      "max_weight_kg": 200,
+      "min_length_cm": 40,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic/Reef",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:stripedmarlin",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/stripedmarlin"
+      }
+    },
+    {
+      "id": 2296,
+      "name": "GiantGrouper",
+      "display_name": "GiantGrouper",
+      "category": "Jacks/Mackerel/Billfish/Reef Fish",
+      "min_weight_kg": 2,
+      "max_weight_kg": 200,
+      "min_length_cm": 40,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic/Reef",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:giantgrouper",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/giantgrouper"
+      }
+    },
+    {
+      "id": 2297,
+      "name": "RubySnapper",
+      "display_name": "RubySnapper",
+      "category": "Jacks/Mackerel/Billfish/Reef Fish",
+      "min_weight_kg": 2,
+      "max_weight_kg": 200,
+      "min_length_cm": 40,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic/Reef",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:rubysnapper",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/rubysnapper"
+      }
+    },
+    {
+      "id": 2298,
+      "name": "GreenJobfish",
+      "display_name": "GreenJobfish",
+      "category": "Jacks/Mackerel/Billfish/Reef Fish",
+      "min_weight_kg": 2,
+      "max_weight_kg": 200,
+      "min_length_cm": 40,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic/Reef",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:greenjobfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/greenjobfish"
+      }
+    },
+    {
+      "id": 2299,
+      "name": "MahiMahi",
+      "display_name": "MahiMahi",
+      "category": "Jacks/Mackerel/Billfish/Reef Fish",
+      "min_weight_kg": 2,
+      "max_weight_kg": 200,
+      "min_length_cm": 40,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic/Reef",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:mahimahi",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/mahimahi"
+      }
+    },
+    {
+      "id": 2301,
+      "name": "JapaneseJackMackerel",
+      "display_name": "JapaneseJackMackerel",
+      "category": "Jacks/Mackerel/Billfish/Reef Fish",
+      "min_weight_kg": 2,
+      "max_weight_kg": 200,
+      "min_length_cm": 40,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic/Reef",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:japanesejackmackerel",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/japanesejackmackerel"
+      }
+    },
+    {
+      "id": 2302,
+      "name": "JapaneseAnchovy",
+      "display_name": "JapaneseAnchovy",
+      "category": "Jacks/Mackerel/Billfish/Reef Fish",
+      "min_weight_kg": 2,
+      "max_weight_kg": 200,
+      "min_length_cm": 40,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic/Reef",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:japaneseanchovy",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/japaneseanchovy"
+      }
+    },
+    {
+      "id": 2304,
+      "name": "BigfinReefSquid",
+      "display_name": "BigfinReefSquid",
+      "category": "Jacks/Mackerel/Billfish/Reef Fish",
+      "min_weight_kg": 2,
+      "max_weight_kg": 200,
+      "min_length_cm": 40,
+      "max_length_cm": 300,
+      "habitat": "Saltwater",
+      "depth": "Pelagic/Reef",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:bigfinreefsquid",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bigfinreefsquid"
+      }
+    },
+    {
+      "id": 1000,
+      "name": "HistoricSpottedBass",
+      "display_name": "HistoricSpottedBass",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:historicspottedbass",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/historicspottedbass"
+      }
+    },
+    {
+      "id": 1001,
+      "name": "HistoricWhiteCrappie",
+      "display_name": "HistoricWhiteCrappie",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:historicwhitecrappie",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/historicwhitecrappie"
+      }
+    },
+    {
+      "id": 1002,
+      "name": "HistoricChainPickerel",
+      "display_name": "HistoricChainPickerel",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:historicchainpickerel",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/historicchainpickerel"
+      }
+    },
+    {
+      "id": 1003,
+      "name": "HistoricCutthroatTrout",
+      "display_name": "HistoricCutthroatTrout",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:historiccutthroattrout",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/historiccutthroattrout"
+      }
+    },
+    {
+      "id": 1004,
+      "name": "HistoricSmallmouthBass",
+      "display_name": "HistoricSmallmouthBass",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:historicsmallmouthbass",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/historicsmallmouthbass"
+      }
+    },
+    {
+      "id": 1005,
+      "name": "HistoricRainbowTrout",
+      "display_name": "HistoricRainbowTrout",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:historicrainbowtrout",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/historicrainbowtrout"
+      }
+    },
+    {
+      "id": 1006,
+      "name": "HistoricLargemouthBass",
+      "display_name": "HistoricLargemouthBass",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:historiclargemouthbass",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/historiclargemouthbass"
+      }
+    },
+    {
+      "id": 1007,
+      "name": "HistoricChinookSalmon",
+      "display_name": "HistoricChinookSalmon",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:historicchinooksalmon",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/historicchinooksalmon"
+      }
+    },
+    {
+      "id": 1008,
+      "name": "HistoricMuskie",
+      "display_name": "HistoricMuskie",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:historicmuskie",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/historicmuskie"
+      }
+    },
+    {
+      "id": 1009,
+      "name": "RowdyBass",
+      "display_name": "RowdyBass",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:rowdybass",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/rowdybass"
+      }
+    },
+    {
+      "id": 1010,
+      "name": "HistoricButterflyPeacockBass",
+      "display_name": "HistoricButterflyPeacockBass",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:historicbutterflypeacockbass",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/historicbutterflypeacockbass"
+      }
+    },
+    {
+      "id": 1011,
+      "name": "HistoricStripedBass",
+      "display_name": "HistoricStripedBass",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:historicstripedbass",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/historicstripedbass"
+      }
+    },
+    {
+      "id": 1012,
+      "name": "GhostPike",
+      "display_name": "GhostPike",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:ghostpike",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/ghostpike"
+      }
+    },
+    {
+      "id": 1013,
+      "name": "BluegillSkeleton",
+      "display_name": "BluegillSkeleton",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:bluegillskeleton",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/bluegillskeleton"
+      }
+    },
+    {
+      "id": 1014,
+      "name": "AntleredSalmon",
+      "display_name": "AntleredSalmon",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:antleredsalmon",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/antleredsalmon"
+      }
+    },
+    {
+      "id": 1015,
+      "name": "MonsterMuskie",
+      "display_name": "MonsterMuskie",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:monstermuskie",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/monstermuskie"
+      }
+    },
+    {
+      "id": 1016,
+      "name": "MonsterFlathead",
+      "display_name": "MonsterFlathead",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:monsterflathead",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/monsterflathead"
+      }
+    },
+    {
+      "id": 1017,
+      "name": "MonsterBowfin",
+      "display_name": "MonsterBowfin",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:monsterbowfin",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/monsterbowfin"
+      }
+    },
+    {
+      "id": 1018,
+      "name": "MonsterWalleye",
+      "display_name": "MonsterWalleye",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:monsterwalleye",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/monsterwalleye"
+      }
+    },
+    {
+      "id": 1019,
+      "name": "MonsterCutthroatTrout",
+      "display_name": "MonsterCutthroatTrout",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:monstercutthroattrout",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/monstercutthroattrout"
+      }
+    },
+    {
+      "id": 1020,
+      "name": "MonsterLongnoseGar",
+      "display_name": "MonsterLongnoseGar",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:monsterlongnosegar",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/monsterlongnosegar"
+      }
+    },
+    {
+      "id": 1021,
+      "name": "MonsterTarpon",
+      "display_name": "MonsterTarpon",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:monstertarpon",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/monstertarpon"
+      }
+    },
+    {
+      "id": 1022,
+      "name": "MonsterBurbot",
+      "display_name": "MonsterBurbot",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:monsterburbot",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/monsterburbot"
+      }
+    },
+    {
+      "id": 1023,
+      "name": "MonsterStripedBass",
+      "display_name": "MonsterStripedBass",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:monsterstripedbass",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/monsterstripedbass"
+      }
+    },
+    {
+      "id": 1024,
+      "name": "MonsterAlaskaBlackfish",
+      "display_name": "MonsterAlaskaBlackfish",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:monsteralaskablackfish",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/monsteralaskablackfish"
+      }
+    },
+    {
+      "id": 1025,
+      "name": "MonsterSmallmouthBuffalo",
+      "display_name": "MonsterSmallmouthBuffalo",
+      "category": "Historic/Monster Fish",
+      "min_weight_kg": 10,
+      "max_weight_kg": 500,
+      "min_length_cm": 80,
+      "max_length_cm": 300,
+      "habitat": "Freshwater",
+      "depth": "Various",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:monstersmallmouthbuffalo",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/monstersmallmouthbuffalo"
+      }
+    },
+    {
+      "id": 2307,
+      "name": "BlackSeaRoach",
+      "display_name": "BlackSeaRoach",
+      "category": "European Marine",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 20,
+      "min_length_cm": 20,
+      "max_length_cm": 100,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:blacksearoach",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/blacksearoach"
+      }
+    },
+    {
+      "id": 2308,
+      "name": "TwaitShad",
+      "display_name": "TwaitShad",
+      "category": "European Marine",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 20,
+      "min_length_cm": 20,
+      "max_length_cm": 100,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Common",
+      "minecraft": {
+        "entity_id": "fishingplanet:twaitshad",
+        "spawn_weight": 10,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/twaitshad"
+      }
+    },
+    {
+      "id": 2318,
+      "name": "BlackMarlin",
+      "display_name": "BlackMarlin",
+      "category": "Billfish/Tuna/Shark",
+      "min_weight_kg": 20,
+      "max_weight_kg": 1000,
+      "min_length_cm": 150,
+      "max_length_cm": 500,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:blackmarlin",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/blackmarlin"
+      }
+    },
+    {
+      "id": 2319,
+      "name": "Swordfish",
+      "display_name": "Swordfish",
+      "category": "Billfish/Tuna/Shark",
+      "min_weight_kg": 20,
+      "max_weight_kg": 1000,
+      "min_length_cm": 150,
+      "max_length_cm": 500,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:swordfish",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/swordfish"
+      }
+    },
+    {
+      "id": 2320,
+      "name": "Sailfish",
+      "display_name": "Sailfish",
+      "category": "Billfish/Tuna/Shark",
+      "min_weight_kg": 20,
+      "max_weight_kg": 1000,
+      "min_length_cm": 150,
+      "max_length_cm": 500,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:sailfish",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/sailfish"
+      }
+    },
+    {
+      "id": 2321,
+      "name": "TwoSpotRedSnapper",
+      "display_name": "TwoSpotRedSnapper",
+      "category": "Billfish/Tuna/Shark",
+      "min_weight_kg": 20,
+      "max_weight_kg": 1000,
+      "min_length_cm": 150,
+      "max_length_cm": 500,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:twospotredsnapper",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/twospotredsnapper"
+      }
+    },
+    {
+      "id": 2322,
+      "name": "SpotfinFlyingfish",
+      "display_name": "SpotfinFlyingfish",
+      "category": "Billfish/Tuna/Shark",
+      "min_weight_kg": 20,
+      "max_weight_kg": 1000,
+      "min_length_cm": 150,
+      "max_length_cm": 500,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:spotfinflyingfish",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/spotfinflyingfish"
+      }
+    },
+    {
+      "id": 2323,
+      "name": "YellowstripeScad",
+      "display_name": "YellowstripeScad",
+      "category": "Billfish/Tuna/Shark",
+      "min_weight_kg": 20,
+      "max_weight_kg": 1000,
+      "min_length_cm": 150,
+      "max_length_cm": 500,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:yellowstripescad",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/yellowstripescad"
+      }
+    },
+    {
+      "id": 2324,
+      "name": "Wahoo",
+      "display_name": "Wahoo",
+      "category": "Billfish/Tuna/Shark",
+      "min_weight_kg": 20,
+      "max_weight_kg": 1000,
+      "min_length_cm": 150,
+      "max_length_cm": 500,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:wahoo",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/wahoo"
+      }
+    },
+    {
+      "id": 2325,
+      "name": "IndoPacificKingMackerel",
+      "display_name": "IndoPacificKingMackerel",
+      "category": "Billfish/Tuna/Shark",
+      "min_weight_kg": 20,
+      "max_weight_kg": 1000,
+      "min_length_cm": 150,
+      "max_length_cm": 500,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:indopacifickingmackerel",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/indopacifickingmackerel"
+      }
+    },
+    {
+      "id": 2326,
+      "name": "GorgeousSwallowtail",
+      "display_name": "GorgeousSwallowtail",
+      "category": "Billfish/Tuna/Shark",
+      "min_weight_kg": 20,
+      "max_weight_kg": 1000,
+      "min_length_cm": 150,
+      "max_length_cm": 500,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:gorgeousswallowtail",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/gorgeousswallowtail"
+      }
+    },
+    {
+      "id": 2327,
+      "name": "SicklePomfret",
+      "display_name": "SicklePomfret",
+      "category": "Billfish/Tuna/Shark",
+      "min_weight_kg": 20,
+      "max_weight_kg": 1000,
+      "min_length_cm": 150,
+      "max_length_cm": 500,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:sicklepomfret",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/sicklepomfret"
+      }
+    },
+    {
+      "id": 2328,
+      "name": "GiantSweetlips",
+      "display_name": "GiantSweetlips",
+      "category": "Billfish/Tuna/Shark",
+      "min_weight_kg": 20,
+      "max_weight_kg": 1000,
+      "min_length_cm": 150,
+      "max_length_cm": 500,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:giantsweetlips",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/giantsweetlips"
+      }
+    },
+    {
+      "id": 2329,
+      "name": "GreatBarracuda",
+      "display_name": "GreatBarracuda",
+      "category": "Billfish/Tuna/Shark",
+      "min_weight_kg": 20,
+      "max_weight_kg": 1000,
+      "min_length_cm": 150,
+      "max_length_cm": 500,
+      "habitat": "Saltwater",
+      "depth": "Pelagic",
+      "rarity": "Legendary",
+      "minecraft": {
+        "entity_id": "fishingplanet:greatbarracuda",
+        "spawn_weight": 1,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/greatbarracuda"
+      }
+    },
+    {
+      "id": 2330,
+      "name": "SleekUnicornfish",
+      "display_name": "SleekUnicornfish",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:sleekunicornfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/sleekunicornfish"
+      }
+    },
+    {
+      "id": 2333,
+      "name": "BlacktipReefShark",
+      "display_name": "BlacktipReefShark",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:blacktipreefshark",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/blacktipreefshark"
+      }
+    },
+    {
+      "id": 2339,
+      "name": "AtlanticSaury",
+      "display_name": "AtlanticSaury",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:atlanticsaury",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/atlanticsaury"
+      }
+    },
+    {
+      "id": 2340,
+      "name": "AtlanticHerring",
+      "display_name": "AtlanticHerring",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:atlanticherring",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/atlanticherring"
+      }
+    },
+    {
+      "id": 2341,
+      "name": "AtlanticHorseMackerel",
+      "display_name": "AtlanticHorseMackerel",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:atlantichorsemackerel",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/atlantichorsemackerel"
+      }
+    },
+    {
+      "id": 2338,
+      "name": "AtlanticMackerel",
+      "display_name": "AtlanticMackerel",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:atlanticmackerel",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/atlanticmackerel"
+      }
+    },
+    {
+      "id": 2342,
+      "name": "AtlanticWolffish",
+      "display_name": "AtlanticWolffish",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:atlanticwolffish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/atlanticwolffish"
+      }
+    },
+    {
+      "id": 2343,
+      "name": "EuropeanAngler",
+      "display_name": "EuropeanAngler",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:europeanangler",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/europeanangler"
+      }
+    },
+    {
+      "id": 2344,
+      "name": "Meagre",
+      "display_name": "Meagre",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:meagre",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/meagre"
+      }
+    },
+    {
+      "id": 2346,
+      "name": "NorwaySeaperch",
+      "display_name": "NorwaySeaperch",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:norwayseaperch",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/norwayseaperch"
+      }
+    },
+    {
+      "id": 2347,
+      "name": "EuropeanSeaSturgeon",
+      "display_name": "EuropeanSeaSturgeon",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:europeanseasturgeon",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/europeanseasturgeon"
+      }
+    },
+    {
+      "id": 2348,
+      "name": "NorwayAtlanticSalmon",
+      "display_name": "NorwayAtlanticSalmon",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:norwayatlanticsalmon",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/norwayatlanticsalmon"
+      }
+    },
+    {
+      "id": 2349,
+      "name": "SeaTrout",
+      "display_name": "SeaTrout",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:seatrout",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/seatrout"
+      }
+    },
+    {
+      "id": 2350,
+      "name": "ArcticChar",
+      "display_name": "ArcticChar",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:arcticchar",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/arcticchar"
+      }
+    },
+    {
+      "id": 2351,
+      "name": "GreenlandShark",
+      "display_name": "GreenlandShark",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:greenlandshark",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/greenlandshark"
+      }
+    },
+    {
+      "id": 2352,
+      "name": "SpinyDogfish",
+      "display_name": "SpinyDogfish",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:spinydogfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/spinydogfish"
+      }
+    },
+    {
+      "id": 2354,
+      "name": "AtlanticHalibut",
+      "display_name": "AtlanticHalibut",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:atlantichalibut",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/atlantichalibut"
+      }
+    },
+    {
+      "id": 2355,
+      "name": "Brill",
+      "display_name": "Brill",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:brill",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/brill"
+      }
+    },
+    {
+      "id": 2356,
+      "name": "GreenlandHalibut",
+      "display_name": "GreenlandHalibut",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:greenlandhalibut",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/greenlandhalibut"
+      }
+    },
+    {
+      "id": 2358,
+      "name": "AtlanticCod",
+      "display_name": "AtlanticCod",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:atlanticcod",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/atlanticcod"
+      }
+    },
+    {
+      "id": 2359,
+      "name": "Coalfish",
+      "display_name": "Coalfish",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:coalfish",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/coalfish"
+      }
+    },
+    {
+      "id": 2360,
+      "name": "Haddock",
+      "display_name": "Haddock",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:haddock",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/haddock"
+      }
+    },
+    {
+      "id": 2361,
+      "name": "Whiting",
+      "display_name": "Whiting",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:whiting",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/whiting"
+      }
+    },
+    {
+      "id": 2362,
+      "name": "CommonLing",
+      "display_name": "CommonLing",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:commonling",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/commonling"
+      }
+    },
+    {
+      "id": 2363,
+      "name": "Cusk",
+      "display_name": "Cusk",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:cusk",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/cusk"
+      }
+    },
+    {
+      "id": 2368,
+      "name": "PorbeagleShark",
+      "display_name": "PorbeagleShark",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:porbeagleshark",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/porbeagleshark"
+      }
+    },
+    {
+      "id": 2364,
+      "name": "EuropeanHake",
+      "display_name": "EuropeanHake",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:europeanhake",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/europeanhake"
+      }
+    },
+    {
+      "id": 2369,
+      "name": "YellowBass",
+      "display_name": "YellowBass",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:yellowbass",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/yellowbass"
+      }
+    },
+    {
+      "id": 2370,
+      "name": "ThreadfinShad",
+      "display_name": "ThreadfinShad",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:threadfinshad",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/threadfinshad"
+      }
+    },
+    {
+      "id": 2371,
+      "name": "GuadalupeBass",
+      "display_name": "GuadalupeBass",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:guadalupebass",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/guadalupebass"
+      }
+    },
+    {
+      "id": 2372,
+      "name": "ShortnoseGar",
+      "display_name": "ShortnoseGar",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:shortnosegar",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/shortnosegar"
+      }
+    },
+    {
+      "id": 2373,
+      "name": "LongnoseDace",
+      "display_name": "LongnoseDace",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:longnosedace",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/longnosedace"
+      }
+    },
+    {
+      "id": 2374,
+      "name": "GreenbackCtthTrout",
+      "display_name": "GreenbackCtthTrout",
+      "category": "European Marine Species",
+      "min_weight_kg": 0.5,
+      "max_weight_kg": 50,
+      "min_length_cm": 20,
+      "max_length_cm": 200,
+      "habitat": "Saltwater (Europe)",
+      "depth": "Various",
+      "rarity": "Uncommon",
+      "minecraft": {
+        "entity_id": "fishingplanet:greenbackctthtrout",
+        "spawn_weight": 5,
+        "creative_tab": "fishingplanet:fish",
+        "loot_table": "fishingplanet:fish/greenbackctthtrout"
+      }
+    }
+  ]
+}
