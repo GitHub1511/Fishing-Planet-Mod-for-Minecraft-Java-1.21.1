@@ -4,6 +4,7 @@ import com.fishingplanet.fishingplanet.registry.ModItems;
 import com.fishingplanet.fishingplanet.registry.ModEntities;
 import com.fishingplanet.fishingplanet.registry.ModSounds;
 import com.fishingplanet.fishingplanet.fishing.FishingMechanics;
+import com.fishingplanet.fishingplanet.loot.ModLootFunctions;
 import com.fishingplanet.fishingplanet.spawn.FishSpawner;
 import com.fishingplanet.fishingplanet.command.FPCommands;
 import com.fishingplanet.fishingplanet.config.ModConfig;
@@ -29,6 +30,9 @@ public class FishingPlanetMod implements ModInitializer {
 
         // Register fishing mechanics
         FishingMechanics.register();
+
+        // Register loot injection (vanilla rods catch Fishing Planet fish)
+        ModLootFunctions.register();
 
         // Register fish spawner
         FishSpawner.register();

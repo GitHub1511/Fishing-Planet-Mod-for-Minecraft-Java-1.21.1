@@ -2,6 +2,7 @@ package com.fishingplanet.fishingplanet.item;
 
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.NbtComponent;
+import net.minecraft.item.FishingRodItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
@@ -15,7 +16,7 @@ import net.minecraft.util.Identifier;
 import java.util.List;
 import java.util.Optional;
 
-public class RodItem extends Item {
+public class RodItem extends FishingRodItem {
     private final int tackleType;
     private final String rodType;
     private final int tier;

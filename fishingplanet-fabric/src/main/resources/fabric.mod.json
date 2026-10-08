@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "fishingplanet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Fishing Planet",
   "description": "Brings Fishing Planet's fish, rods, reels, lures, and tackle to Minecraft. All water bodies spawn Fishing Planet fish species.",
   "authors": ["Shivi"],
