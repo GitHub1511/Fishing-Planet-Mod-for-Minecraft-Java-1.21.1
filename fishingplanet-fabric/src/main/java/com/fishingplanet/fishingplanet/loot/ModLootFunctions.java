@@ -27,7 +27,7 @@ public class ModLootFunctions {
                     .rolls(ConstantLootNumberProvider.create(1))
                     .with(ItemEntry.builder(ModItems.FISH_ITEM)
                         .weight(50)
-                        .apply(new SetFishCatchFunction(List.of()))
+                        .apply(SetFishCatchFunction.builder())
                         .build())
                     .build());
             }

@@ -11,6 +11,7 @@ import net.minecraft.loot.condition.LootCondition;
 import net.minecraft.loot.context.LootContext;
 import net.minecraft.loot.context.LootContextParameters;
 import net.minecraft.loot.function.ConditionalLootFunction;
+import net.minecraft.loot.function.LootFunction;
 import net.minecraft.loot.function.LootFunctionType;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.text.Text;
@@ -26,6 +27,15 @@ public class SetFishCatchFunction extends ConditionalLootFunction {
 
     public SetFishCatchFunction(List<LootCondition> conditions) {
         super(conditions);
+    }
+
+    public static LootFunction.Builder builder() {
+        return new LootFunction.Builder() {
+            @Override
+            public LootFunction build() {
+                return new SetFishCatchFunction(List.of());
+            }
+        };
     }
 
     @Override
