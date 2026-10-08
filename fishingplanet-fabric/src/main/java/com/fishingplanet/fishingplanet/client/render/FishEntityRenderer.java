@@ -12,13 +12,16 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
 
 public class FishEntityRenderer extends MobEntityRenderer<FishingPlanetFishEntity, CodEntityModel<FishingPlanetFishEntity>> {
+    private static final java.util.Map<Integer, Identifier> TEXTURE_CACHE = new java.util.concurrent.ConcurrentHashMap<>();
+
     public FishEntityRenderer(EntityRendererFactory.Context context) {
         super(context, new CodEntityModel<>(context.getPart(EntityModelLayers.COD)), 0.3F);
     }
 
     @Override
     public Identifier getTexture(FishingPlanetFishEntity entity) {
-        return Identifier.of("fishingplanet", "textures/entity/fish/" + entity.getSpecies().id() + ".png");
+        return TEXTURE_CACHE.computeIfAbsent(entity.getSpecies().id(),
+            id -> Identifier.of("fishingplanet", "textures/entity/fish/" + id + ".png"));
     }
 
     @Override

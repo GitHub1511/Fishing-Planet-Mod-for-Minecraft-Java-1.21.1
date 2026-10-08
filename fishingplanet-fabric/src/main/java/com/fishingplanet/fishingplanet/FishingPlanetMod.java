@@ -34,8 +34,9 @@ public class FishingPlanetMod implements ModInitializer {
         // Register loot injection (vanilla rods catch Fishing Planet fish)
         ModLootFunctions.register();
 
-        // Register fish spawner
+        // Register fish spawner (timer-based top-ups near players, zero worldgen cost)
         FishSpawner.register();
+        ServerTickEvents.END_SERVER_TICK.register(FishSpawner::onServerTick);
 
         // Register commands
         CommandRegistrationCallback.EVENT.register(FPCommands::register);
