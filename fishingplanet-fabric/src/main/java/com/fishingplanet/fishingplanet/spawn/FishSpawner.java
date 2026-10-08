@@ -31,6 +31,9 @@ public class FishSpawner {
         if (!enabled || !ModConfig.get().spawn.enableNaturalSpawning) {
             return;
         }
+        if (world.getPlayers().isEmpty()) {
+            return;
+        }
         if (ACTIVE_FISH.get() >= ModConfig.get().spawn.maxFishTotal) {
             return;
         }
