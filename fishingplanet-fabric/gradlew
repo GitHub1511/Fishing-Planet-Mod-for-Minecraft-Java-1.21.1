@@ -115,13 +115,6 @@ elif $msys ; then
     JAVACMD=`cmd //c "for %i in (\"$JAVACMD\") do @echo %~fsi"`
 fi
 
-# Escape application args
-save () {
-    for i do printf %s\\n "$i" | sed "s/'/'\\\\''/g;1s/^/'/;\$s/\$/'/" ; done
-    echo " "
-}
-APP_ARGS=$(save "$@")
-
 # Collect all arguments for the java command, stacking in reverse order:
 # * args from the command line
 # * the main class
@@ -129,7 +122,6 @@ APP_ARGS=$(save "$@")
 # * -D... settings
 # * DEFAULT_JVM_OPTS, JAVA_OPTS, and GRADLE_OPTS environment variables
 
-# Use a subshell to prevent the main shell from being affected by the exec
 exec "$JAVACMD" $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS \
   -classpath "$CLASSPATH" \
-  org.gradle.wrapper.GradleWrapperMain "$APP_ARGS"
+  org.gradle.wrapper.GradleWrapperMain "$@"
