@@ -21,8 +21,8 @@ public class ModLootFunctions {
     private static final Identifier FISHING_FISH_ID = Identifier.of("minecraft", "gameplay/fishing/fish");
 
     public static void register() {
-        LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
-            if (source.isBuiltin() && FISHING_FISH_ID.equals(id)) {
+        LootTableEvents.MODIFY.register((key, tableBuilder, source) -> {
+            if (source.isBuiltin() && FISHING_FISH_ID.equals(key.getValue())) {
                 tableBuilder.pool(LootPool.builder()
                     .rolls(ConstantLootNumberProvider.create(1))
                     .with(ItemEntry.builder(ModItems.FISH_ITEM)
