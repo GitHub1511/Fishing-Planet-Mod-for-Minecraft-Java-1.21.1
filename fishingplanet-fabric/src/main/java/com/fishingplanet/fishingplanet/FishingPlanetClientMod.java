@@ -3,6 +3,7 @@ package com.fishingplanet.fishingplanet;
 import com.fishingplanet.fishingplanet.client.render.FishEntityRenderer;
 import com.fishingplanet.fishingplanet.client.render.BobberEntityRenderer;
 import com.fishingplanet.fishingplanet.compat.IrisCompat;
+import com.fishingplanet.fishingplanet.registry.ModEntities;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

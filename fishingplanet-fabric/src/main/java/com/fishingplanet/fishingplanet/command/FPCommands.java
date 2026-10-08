@@ -25,7 +25,7 @@ import net.minecraft.util.math.BlockPos;
 import java.util.List;
 
 public class FPCommands {
-    public static void register(CommandDispatcher<ServerCommandSource> dispatcher, CommandRegistryAccess registryAccess, RegistrationEnvironment environment) {
+    public static void register(CommandDispatcher<ServerCommandSource> dispatcher, CommandRegistryAccess registryAccess, net.minecraft.command.CommandManager.RegistrationEnvironment environment) {
         dispatcher.register(
             net.minecraft.command.CommandManager.literal("fp")
                 .requires(source -> source.hasPermissionLevel(2))
